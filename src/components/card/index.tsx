@@ -1,18 +1,23 @@
-import './style.css';
+interface CardProps {
+  name: string;
+  technologies: string[];
+  description: string;
+  image: string
+  link: string;
+}
 
-function Card() {
+function Card({ name, technologies, description, image, link }: CardProps) {
   return (
     <div className="card-container">
       <div className="card-image">
-        <img />
-        <button className="card-button">VER</button>
+        <img src={image}/>
+        <a className="card-button" href={link} target="_blank" rel="noopener noreferrer">VER</a>
       </div>
 
       <div className="card-info">
-        <p><strong>Nome:</strong> x</p>
-        <p><strong>Data:</strong> X</p>
-        <p><strong>Tecnologias:</strong> A, B, C, D</p>
-        <p><strong>Descrição:</strong> Blá, Blá, Blá</p>
+        <p><strong>Nome:</strong> {name}</p>
+        <p><strong>Tecnologias:</strong> {technologies.join(", ")}</p>
+        <p><strong>Descrição:</strong> {description}</p>
       </div>
     </div>
   );
