@@ -1,3 +1,5 @@
+import './style.css'
+
 interface CardProps {
   name: string;
   technologies: string[];
@@ -10,7 +12,7 @@ function Card({ name, technologies, description, image, link }: CardProps) {
   return (
     <div className="card-container">
       <div className="card-image">
-        <img src={image}/>
+        <img src={`img/${image}`} />
         <a className="card-button" href={link} target="_blank" rel="noopener noreferrer">VER</a>
       </div>
 
