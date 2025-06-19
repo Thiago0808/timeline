@@ -14,6 +14,15 @@ function App() {
         image="helloworld.png" 
         link='/projects/first/helloworld.html'
       />
+      <Card
+        name="GNU/Linux" 
+        technologies={["HTML",]} 
+        description="Depois, foi feito site sobre GNU/Linux, o sistema operacional utilizado nos computadores do IFSC,
+        nos quais foram feitos a maior parte dos projetos desta timelinte. O objetivo com esse site era principalmente 
+        entender melhor a separação de parágrafos, e elementos de forma geral. O strong também foi foco."
+        image="linux.png" 
+        link='/projects/first/linux.html'
+      />
     </div>
   );
 }

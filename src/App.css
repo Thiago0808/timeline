@@ -3,4 +3,5 @@
   display: flex;
   justify-content: center;  /* Centraliza horizontalmente */
   width: 100%;
+  flex-direction: column;
 }
