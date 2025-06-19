@@ -4,7 +4,7 @@ function Card() {
   return (
     <div className="card-container">
       <div className="card-image">
-        <span>imagem</span>
+        <img />
         <button className="card-button">VER</button>
       </div>
 
