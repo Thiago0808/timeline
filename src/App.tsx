@@ -41,6 +41,15 @@ function App() {
         image="regioes.png" 
         link='/projects/listas/regioes.html'
       />
+      <Card
+        name="Tabelas"  // 9 de Março de 2023
+        technologies={["HTML", "CSS",]} 
+        description="O objetivo deste era claro: Entender e aplicar o conceito de tabelas,
+        utilizando <tr> e <th>, além de eu aprimorar meu entendimento de formatação de código. 
+        Também foi aqui que conheci o hover do CSS"
+        image="tabelas.png" 
+        link='/projects/tabelas/tabelas.html'
+      />
     </div>
   );
 }

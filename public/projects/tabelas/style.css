@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    color: aliceblue;;
+    font-size: 45px;
+}
+
+
+th{
+    border: 1px;
+    background-color: red;
+    color: black;
+}
+td{
+    padding: 5px;
+    border: 1px solid red;
+}
+
+table{
+    border: 1px solid red;
+    text-align: center;
+    float: left;
+    margin-right: 180px;
+    margin-bottom: 30px;
+}
+
+td:hover{
+    background-color: red;
+}
+
+hr{
+    color: red;
+    size: 50px;
+}
+
+
+
+.blue{
+    background-color: blue;
+    color: aqua;
+    border: solid blue ;
+    float: left;
+}
+.azul{
+    border: solid aqua;
+}
+
+
+.red{
+    background-color:rgb(66, 0, 0);
+    color:red;
+    border: solid rgb(66, 0, 0);}
+.vermelho{
+    border: solid red;
+}
+
+.yellow{
+    background-color: rgb(133, 98, 11);
+    color: yellow;
+    border: solid rgb(133, 98, 11);
+}
+.amarelo{
+    border:2px solid yellow;
+}
+
+
+.grenn{
+    background-color: darkgreen;
+    color: chartreuse;
+    border: solid darkgreen;
+}
+.verde{
+    border: solid chartreuse;
+}

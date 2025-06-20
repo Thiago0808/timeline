@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Estudo sobre Tabelas HTML">
+    
+</head>
+<body>
+    <!--  
+        Regras de Construção de Tabelas
+        1- Abrir tag <table>
+        2- Contar quantas linhas tem a tabela e abrir uma tag <tr> (abrir/fechar) para cada linha. Table Row 
+        3- Dentro de cada <tr>, abrir uma <td> por célula. Table Base
+
+        *Você pode utilizar a tag <th> para células de cabeçalho
+    -->
+
+    <table>
+
+        <tr>
+            <th>Tabela</th>
+            <th>Primeira Coluna</th>
+            <th>Segunda Coluna</th>
+            <th>Terceira Coluna</th>
+        </tr>
+        <tr>
+            <th>Primeira Linha</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <th>Segunda Linha</th>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <th>Terceira Linha</th>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <th>Quarta Linha</th>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+    </table>
+    
+
+    <table class="e">
+        <tr>
+            <td colspan="3">1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td rowspan="2">2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </table>
+
+
+    <table class="blue">
+        <tr>
+            <td class="azul">1</td>
+            <td rowspan="3" class="azul">2</td>
+        </tr>
+        <tr>
+            <td class="azul">3</td>
+        </tr>
+        <tr>
+            <td class="azul">4</td>
+        </tr>
+    </table>
+
+
+    <table class="red">
+        <tr>
+            <td rowspan="3" class="vermelho">1</td>
+            <td class="vermelho">2</td>
+            <td class="vermelho">3</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="vermelho">4</td>
+        </tr>
+        <tr>
+            <td class="vermelho">5</td>
+            <td class="vermelho">6</td>
+        </tr>
+    </table>
+
+    <table class="yellow">
+        <tr>
+            <td class="amarelo">1</td>
+            <td class="amarelo">2</td>
+            <td class="amarelo">3</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="amarelo">4</td>
+            <td class="amarelo">5</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="amarelo">6</td>
+        </tr>
+    </table>
+
+    <table class="grenn">
+        <tr>
+            <td class="verde">1</td>
+            <td rowspan="3" class="verde">2</td>
+            <td class="verde">3</td>
+        </tr>
+        <tr>
+            <td class="verde">4</td>
+            <td class="verde">5</td>
+        </tr>
+        <tr>
+            <td class="verde">6</td>
+            <td class="verde">7</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
