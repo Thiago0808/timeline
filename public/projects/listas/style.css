@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    text-align:justify;
+}
+
+h1{
+    font-size:50px;
+}
+
+li{
+    font-size:xx-large;
+    color: aliceblue;
+}
+
+/*Formatação de Classes*/
+.destaque{
+    color:red
+}
