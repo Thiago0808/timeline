@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app-container">
       <Card
-        name="Hello World" 
+        name="Hello World" // 9 de Fevereiro de 2023
         technologies={["HTML",]} 
         description="Não poderia ser diferente! Para qualquer dev, o primeiro passo é sempre esse. 
         Com HTML puro, esse foi o primeiro site que desenvolvi. O objetivo principal era entender os fundamentos de um site — 
@@ -15,13 +15,22 @@ function App() {
         link='/projects/first/helloworld.html'
       />
       <Card
-        name="GNU/Linux" 
+        name="GNU/Linux"  // 9 de Fevereiro de 2023
         technologies={["HTML",]} 
         description="Depois, foi feito site sobre GNU/Linux, o sistema operacional utilizado nos computadores do IFSC,
         nos quais foram feitos a maior parte dos projetos desta timelinte. O objetivo com esse site era principalmente 
         entender melhor a separação de parágrafos, e elementos de forma geral. O strong também foi foco."
         image="linux.png" 
         link='/projects/first/linux.html'
+      />
+      <Card
+        name="Navegadores"  // 15 de Fevereiro de 2023
+        technologies={["HTML",]} 
+        description="Este foi meu primeiro contato com diversos fatores importantes para a programação.
+        Foi meu primeiro uso de imagens, entendendo o elemento <img>; meu primeiro contato com links e redirecionamento;
+        e principalmente, meu primeiro contato com CSS, mexendo basicamente com cores, fontes e um pouco de alinhamento"
+        image="navegadores.png" 
+        link='/projects/navegadores/index.html'
       />
     </div>
   );
