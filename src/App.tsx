@@ -11,6 +11,8 @@ function App() {
       <div className="right-panel">
         <div className="cards-container">
           <Card
+            date="9 DE FEVEREIRO DE 2023"
+            title="O PRIMEIRO DE TODOS"
             name="Hello World"
             technologies={["HTML"]}
             description="Não poderia ser diferente! Para qualquer dev, o primeiro passo é sempre esse. 
@@ -21,6 +23,8 @@ function App() {
             link="/projects/first/helloworld.html"
           />
           <Card
+            date="9 DE FEVEREIRO DE 2023"
+            title="UM PASSO A MAIS"
             name="GNU/Linux"
             technologies={["HTML"]}
             description="Depois, foi feito site sobre GNU/Linux, o sistema operacional utilizado nos computadores do IFSC,
@@ -30,6 +34,8 @@ function App() {
             link="/projects/first/linux.html"
           />
           <Card
+            date="15 DE FEVEREIRO DE 2023"
+            title="O PRIMEIRO CONTATO COM CSS E IMAGENS"
             name="Navegadores"
             technologies={["HTML", "CSS"]}
             description="Este foi meu primeiro contato com diversos fatores importantes para a programação.
@@ -39,6 +45,8 @@ function App() {
             link="/projects/navegadores/index.html"
           />
           <Card
+            date="23 DE FEVEREIRO DE 2023"
+            title="APRENDENDO LISTAS"
             name="Regiões"
             technologies={["HTML", "CSS"]}
             description="Foi com esse pequeno site que aprendi a programar listas em HTML,
@@ -48,6 +56,8 @@ function App() {
             link="/projects/listas/regioes.html"
           />
           <Card
+            date="9 DE MARÇO DE 2023"
+            title="INTRODUÇÃO ÀS TABELAS"
             name="Tabelas"
             technologies={["HTML", "CSS"]}
             description="O objetivo deste era claro: Entender e aplicar o conceito de tabelas,
