@@ -1,7 +1,7 @@
 .custom-button {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: 0.5rem;
+  right: 0.5rem;
   background-color: #5A37A6;
   color: white;
   border: none;

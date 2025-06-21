@@ -1,24 +1,24 @@
 .card-container {
-  border: 5px solid black;
-  padding: 0.5rem;
+  padding: 1rem;
   margin: 2rem auto;
-  background-color: white;
+  background-color: #1C2128;
+  color: white;
+  border-radius: 3%;
 }
 
 .card-image {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid black;
   position: relative;
   max-width: 100%;
 }
 
 img{
   max-width: 100%;
+  border-radius: 0.5%;
 }
 
 .card-info {
   margin-top: 1.5rem;
-  font-weight: bold;
 }
