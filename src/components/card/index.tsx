@@ -1,4 +1,5 @@
 import './style.css'
+import Button from "../button/index";
 
 interface CardProps {
   name: string;
@@ -13,7 +14,7 @@ function Card({ name, technologies, description, image, link }: CardProps) {
     <div className="card-container">
       <div className="card-image">
         <img src={`img/${image}`} />
-        <a className="card-button" href={link} target="_blank" rel="noopener noreferrer">VER</a>
+        <Button text="VER" href={link} />
       </div>
 
       <div className="card-info">
