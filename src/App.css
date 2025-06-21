@@ -1,7 +1,36 @@
+
+body{
+  margin: 0;
+}
+
 .app-container {
   background-color: white;
   display: flex;
-  justify-content: center;  /* Centraliza horizontalmente */
+  justify-content: center; 
   width: 100%;
   flex-direction: column;
+}
+
+.main-layout {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left-panel {
+  width: 10%;
+  background-color: #f0f0f0;
+}
+
+.right-panel {
+  width: 90%;
+  background-color: white;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

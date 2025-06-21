@@ -1,7 +1,6 @@
 .card-container {
   border: 5px solid black;
-  padding: 2rem;
-  width: 75%;
+  padding: 0.5rem;
   margin: 2rem auto;
   background-color: white;
 }
@@ -17,17 +16,6 @@
 
 img{
   max-width: 100%;
-}
-
-.card-button {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  background-color: #004aad;
-  color: black;
-  padding: 1rem 2rem;
-  border: none;
-  cursor: pointer;
 }
 
 .card-info {
