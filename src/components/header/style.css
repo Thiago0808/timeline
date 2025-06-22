@@ -24,7 +24,7 @@
 .header-socials {
   display: flex;
   gap: 1rem;
-  margin-left: auto; /* empurra para a direita */
+  margin-left: auto;
   align-items: center;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .header-socials a:hover {
-  color: #5a37a6; /* cor roxa no hover, mesma da borda do header */
+  color: #5a37a6;
 }
 
 
