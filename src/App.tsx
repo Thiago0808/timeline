@@ -1,8 +1,11 @@
 import './App.css'
 import Card from './components/card'
+import Header from './components/header'
 
 function App() {
   return (
+    <>
+    <Header />
     <div className="main-layout">
       <div className="left-panel">
         {/* Espaço reservado (30%) */}
@@ -69,6 +72,7 @@ function App() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
