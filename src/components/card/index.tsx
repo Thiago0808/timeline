@@ -1,6 +1,7 @@
 import './style.css'
 import Button from "../button/index";
 import Title from '../title';
+import Tag from '../tag';
 
 interface CardProps {
   date: string;
@@ -24,7 +25,11 @@ function Card({ date, title, name, technologies, description, image, link }: Car
 
         <div className="card-info">
           <h3>{name}</h3>
-          <p>{technologies.join(", ")}</p>
+          <div>
+            {technologies.map((tech, index) => (
+              <Tag key={index} name={tech} />
+            ))}
+          </div>
           <p>{description}</p>
         </div>
       </div>

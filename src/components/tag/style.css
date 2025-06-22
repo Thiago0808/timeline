@@ -1,0 +1,38 @@
+.tag {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  margin: 0.2rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: white;
+  border-radius: 12px;
+  background-color: #555; /* Cor padrão */
+  text-transform: uppercase;
+}
+
+/* Cores específicas */
+.html {
+  background-color: #e44d26;
+}
+
+.css {
+  background-color: #264de4;
+}
+
+/* .php {
+  background-color: #8892be;
+}
+
+.javascript {
+  background-color: #f0db4f;
+  color: #323330;
+}
+
+.react {
+  background-color: #61dafb;
+  color: #20232a;
+}
+
+.bootstrap {
+  background-color: #7952b3;
+} */
