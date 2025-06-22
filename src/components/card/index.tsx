@@ -23,9 +23,9 @@ function Card({ date, title, name, technologies, description, image, link }: Car
         </div>
 
         <div className="card-info">
-          <p><strong>Nome:</strong> {name}</p>
-          <p><strong>Tecnologias:</strong> {technologies.join(", ")}</p>
-          <p><strong>Descrição:</strong> {description}</p>
+          <h3>{name}</h3>
+          <p>{technologies.join(", ")}</p>
+          <p>{description}</p>
         </div>
       </div>
     </div>
