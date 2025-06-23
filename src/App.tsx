@@ -75,7 +75,7 @@ const cardsData = [
     image: "pizzaria.png",
     link: "/projects/pizzaria/index.html",
   },
-    {
+  {
     date: "29 DE MARÇO DE 2023",
     title: "FOCO EM RESPONSIVO",
     name: "Responsividade em Meu Site",
@@ -84,6 +84,16 @@ const cardsData = [
       "Aqui aprendi técnicas com foco em responsividade do site, principalmente o media screen, mudando espaçamentos, fontes e até mesmo o posicionamento de blocos do site.",
     image: "responsividade.png",
     link: "/projects/responsividade/index.html",
+  },
+  {
+    date: "29 DE MARÇO DE 2023",
+    title: "REPLICANDO IMAGENS",
+    name: "Dubai",
+    technologies: ["HTML", "CSS"],
+    description:
+      "Pondo em prática minhas habilidades de CSS, o objetivo era recriar uma imagem, um anúncio de publicidade de Dubai, utilizando os conhecimentos adquiridos anteriormente.",
+    image: "dubai.png",
+    link: "/projects/dubai/dubai.html",
   },
 ];
 
