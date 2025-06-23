@@ -65,6 +65,16 @@ const cardsData = [
     image: "secoes.png",
     link: "/projects/secoes/index.html",
   },
+  {
+    date: "16 DE MARÇO DE 2023",
+    title: "APLICANDO CONHECIMENTOS",
+    name: "IFSC Pizzas",
+    technologies: ["HTML", "CSS"],
+    description:
+      "Com o objetivo de aplicar tudo que tinhamos aprendido até o momento, nossa primeira avaliação na matéria foi criar um site para uma pizzaria fictícia. Utilizando cores clássicas de pizzarias, utilizei de imagens, tabelas, nav, seções e até um componente do Google Maps.",
+    image: "pizzaria.png",
+    link: "/projects/pizzaria/index.html",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);

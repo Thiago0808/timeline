@@ -1,0 +1,154 @@
+body{
+    background-image: url(imagem/pattern4.jpg);
+    text-align: center;
+}
+
+/* Classes */
+
+header{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(172, 4, 4);
+    color: white;
+    font-size: xx-large;
+    margin-top: 69px;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+    padding-left: 30px;
+    padding-top: 60px;
+    border-radius: 15px;
+
+}
+
+h2{
+    font-size: xx-large;
+    text-align: center;
+}
+
+div{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(172, 4, 4);
+    color: white;
+    padding: 100px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    border-radius: 15px;
+}
+
+#ini, #apre, #loc, #card{
+    padding-top: 60px;
+}
+
+#apre{
+    text-align: justify;
+}
+
+#rod{
+    padding-top: 10px;
+}
+
+p{
+    font-size: larger;
+}
+
+nav{
+    background-color: rgb(172, 4, 4);
+    position: fixed;
+    /* top, left, right, bottom */
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+a:hover{
+    color: yellow;
+}
+
+
+
+table{
+    border: 1px solid yellow;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+th{
+    border: 1px solid yellow;
+    background-color: rgb(172, 4, 4);
+    color: white;
+    font-size: x-large;
+}
+td{
+    padding: 5px;
+    border: 1px solid red;
+}
+
+td:hover{
+    background-color: yellow;
+    color: red;
+}
+
+footer{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(172, 4, 4);
+    color: white;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+.logo{
+    float: left;
+}
+
+.suco{
+    float: right;
+    margin-left: 15%;
+}
+
+.refri{
+    float: right;
+}
+
+
+
+.pr{
+    float: left;
+    margin-right: 1%;
+}
+
+.pizza{
+    float: none;
+}
+
