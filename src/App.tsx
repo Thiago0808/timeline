@@ -75,6 +75,16 @@ const cardsData = [
     image: "pizzaria.png",
     link: "/projects/pizzaria/index.html",
   },
+    {
+    date: "29 DE MARÇO DE 2023",
+    title: "FOCO EM RESPONSIVO",
+    name: "Responsividade em Meu Site",
+    technologies: ["HTML", "CSS"],
+    description:
+      "Aqui aprendi técnicas com foco em responsividade do site, principalmente o media screen, mudando espaçamentos, fontes e até mesmo o posicionamento de blocos do site.",
+    image: "responsividade.png",
+    link: "/projects/responsividade/index.html",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);
