@@ -27,7 +27,7 @@ const cardsData = [
   },
   {
     date: "15 DE FEVEREIRO DE 2023",
-    title: "O PRIMEIRO CONTATO COM CSS E IMAGENS",
+    title: "O PRIMEIRO CONTATO COM CSS & IMAGENS",
     name: "Navegadores",
     technologies: ["HTML", "CSS"],
     description:
@@ -54,6 +54,16 @@ const cardsData = [
       "O objetivo deste era claro: Entender e aplicar o conceito de tabelas, utilizando <tr> e <th>, além de eu aprimorar meu entendimento de formatação de código. Também foi aqui que conheci o hover do CSS",
     image: "tabelas.png",
     link: "/projects/tabelas/tabelas.html",
+  },
+  {
+    date: "15 DE MARÇO DE 2023",
+    title: "PRIMEIRAS SEÇÕES & NAV",
+    name: "Seções",
+    technologies: ["HTML", "CSS"],
+    description:
+      "Utilizando um tema marítimo, criei meu primeiro nav. Também aprendi a usar sections, e conectá-los ao nav, de modo a facilitar o uso de um site.",
+    image: "secoes.png",
+    link: "/projects/secoes/index.html",
   },
 ];
 
