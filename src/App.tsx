@@ -95,6 +95,16 @@ const cardsData = [
     image: "dubai.png",
     link: "/projects/dubai/dubai.html",
   },
+  {
+    date: "30 DE MARÇO DE 2023",
+    title: "APRENDENDO FLEX",
+    name: "Flexbox",
+    technologies: ["HTML", "CSS"],
+    description:
+      "Neste dia aprendi bastante sobre os tipos de display, como block, none, e o display:flex, assim como os seus atributos extras.",
+    image: "flexbox.png",
+    link: "/projects/flex/index.html",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);
