@@ -46,6 +46,16 @@ const cardsData = [
     link: "/projects/listas/regioes.html",
   },
   {
+    date: "1 DE MARÇO DE 2023",
+    title: "DIA DAS MULHERES",
+    name: "Kim Swift",
+    technologies: ["HTML", "CSS"],
+    description:
+      "Para o dia das mulheres, foi realizado um projeto com toda a sala para cada um fazer um site simples sobre uma mulher na área da tecnologia, que seriam depois disponibilizados para o público no dia do evento. Eu escohi a Kim Swift, devido ao meu gosto por videogames e pela Valve.",
+    image: "kim.png",
+    link: "/projects/kim/index.html",
+  },
+  {
     date: "9 DE MARÇO DE 2023",
     title: "INTRODUÇÃO ÀS TABELAS",
     name: "Tabelas",
