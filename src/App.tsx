@@ -105,6 +105,16 @@ const cardsData = [
     image: "flexbox.png",
     link: "/projects/flex/index.html",
   },
+  {
+    date: "20 DE ABRIL DE 2023",
+    title: "COMPRENDENDO ELEMENTOS",
+    name: "Elementos Semânticos",
+    technologies: ["HTML", "CSS"],
+    description:
+      "Para fazer um código mais claro e fácil de se entender, aprendi sobre elementos semânticos, tais como header, main, footer, facilitando a interpreação do código.",
+    image: "semanticos.png",
+    link: "/projects/semanticos/index.html",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);

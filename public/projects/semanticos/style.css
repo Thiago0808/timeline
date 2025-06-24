@@ -1,0 +1,113 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #ccc;
+    margin: auto;
+    max-width: 1000px;
+    display: grid; /* Layout em Grid */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Frações */
+
+    grid-template-areas: 
+        "topo topo topo topo banner"
+        "menuprincipal menuprincipal menuprincipal menuprincipal menuprincipal"
+        "menusecundario menusecundario principal principal principal"
+        "rodape rodape rodape rodape rodape"
+    ;
+    /* gap: 10px;  * /
+    /* Espaçamento entre Divs */
+}
+
+/* Cabeçalho */
+header{
+    background-color: #F25041;
+    text-align: center;
+    grid-area: topo;
+}
+
+/* Banner */
+aside{
+    background-color: #F29544;
+    text-align: center;
+    grid-area: banner;
+}
+
+/* Navs */
+.mainmenu{
+    background-color: #323673;
+    display: flex;
+    justify-content: space-around;  /* Distribiu no Espaço */
+    grid-area: menuprincipal;
+}
+
+.sidemenu{
+    background-color: #33A6A6;
+    display: flex;
+    justify-content: space-around;  /* Distribiu no Espaço */
+    flex-direction:column;
+    row-gap: 20px;  /* Espaço entre Linhas */
+    grid-area: menusecundario;
+    text-align: center;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+}
+
+/* Principal */
+main{
+    background-color: #8C1F66;
+    grid-area: principal;
+}
+
+p{
+    line-height: 180%;
+}
+
+/* Rodapé */
+footer{
+    background-color: green;
+    text-align: center;
+    grid-area: rodape;
+}
+
+header, aside, nav, main, footer{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        margin: 0;
+    }
+    .container{
+        grid-template-columns: 1fr; /* Frações */
+    
+        grid-template-areas: 
+            "topo"
+            "menuprincipal"
+            "principal"
+            "banner"
+            "menusecundario"
+            "rodape"
+        ;
+    }
+
+    a:link, a:visited{
+        font-size: normal;
+        font-weight: normal;
+    }
+
+
+    
+}
+
