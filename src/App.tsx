@@ -86,6 +86,16 @@ const cardsData = [
     link: "/projects/pizzaria/index.html",
   },
   {
+    date: "23 DE MARÇO DE 2023",
+    title: "LAYOUTS & FLOAT",
+    name: "Float",
+    technologies: ["HTML", "CSS"],
+    description:
+      "Para aprender mais sobre layouts de sites, nos foi ensinado o float, para adquirirmos as primeiras noções deste conceito. Também montei um site com links para os diferentes layouts que tínhamos que fazer.",
+    image: "float.png",
+    link: "/projects/layouts/Layouts/index.html",
+  },
+  {
     date: "29 DE MARÇO DE 2023",
     title: "FOCO EM RESPONSIVO",
     name: "Responsividade em Meu Site",

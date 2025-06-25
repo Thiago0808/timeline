@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: black;
+    font-size: 50px;
+}
+
+.container{
+    width: 940px;
+    /* text-align: center; */
+    margin: auto;
+}
+
+header{
+    width: 940px;
+    min-height: 200px;
+    background-color: orangered;
+    clear: both;
+}
+
+nav{
+    width: 200px;
+    min-height: 450px;
+    background-color: red;
+    float: left;
+}
+
+aside{
+    width: 200px;
+    min-height: 450px;
+    background-color: green;
+    float: left;
+}
+
+main{
+    width: 540px;
+    min-height: 450px;
+    background-color: silver;
+    float: left;
+}
+
+footer{
+    width: 940px;
+    min-height: 150px;
+    background-color: blue;
+    clear: both;
+}
