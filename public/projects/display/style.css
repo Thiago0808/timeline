@@ -1,0 +1,49 @@
+
+
+body{
+    color: black;
+    text-align: center;
+    background-image: url(imagens/MarioPattern.jpg);
+    /* background-attachment: fixed; */
+    /* background-repeat: repeat-x; */
+    /* background-size: cover; */
+}
+div{
+    border: 1px solid white;
+    font-weight: 500;
+}
+
+/* Formatação do Cibtainer */
+.container{
+    width: 800px;
+    margin: auto;
+    background-color:white;
+
+}
+
+p{
+    border: 1px solid lightskyblue;
+} 
+
+h4{
+    border: 1px solid blue;
+    text-align: center;
+}
+
+ul{
+    border: 1px solid red;
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    border: 1px solid red;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    font-size: 4em;
+}
+
+img{
+    margin-left: 50px;
+}

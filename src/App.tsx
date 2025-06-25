@@ -67,6 +67,16 @@ const cardsData = [
   },
   {
     date: "15 DE MARÇO DE 2023",
+    title: "DISPLAY, BORDAS & BACKGROUND",
+    name: "Display do Mario",
+    technologies: ["HTML", "CSS"],
+    description:
+      "Com o tema de um personagem que adoro, entendi o conceito de display, aprend a personalizar a borda de blocos, e também a como colocar imagens no fundo de um site.",
+    image: "display.png",
+    link: "/projects/display/display.html",
+  },
+  {
+    date: "15 DE MARÇO DE 2023",
     title: "PRIMEIRAS SEÇÕES & NAV",
     name: "Seções",
     technologies: ["HTML", "CSS"],
