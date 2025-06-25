@@ -145,6 +145,16 @@ const cardsData = [
     image: "semanticos.png",
     link: "/projects/semanticos/index.html",
   },
+  {
+    date: "3 DE MAIO DE 2023",
+    title: "APLICANDO O QUE APRENDEMOS",
+    name: "Blue Web",
+    technologies: ["HTML", "CSS"],
+    description:
+      "Antes de partirmos para o PHP, tivemos uma aula focada em HTML e CSS, buscando replicar um website simples que o professor tinha feito.",
+    image: "blueweb.png",
+    link: "/projects/blueweb/index.html",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);

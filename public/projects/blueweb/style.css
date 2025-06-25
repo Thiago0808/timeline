@@ -1,0 +1,109 @@
+body{
+    background-image: url(images/fundo.png);
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    max-width: 96%;
+    margin: auto;
+    background-color: #000;
+    color: #e6e6e6;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header, nav, aside, main, section, footer{
+    box-sizing: border-box;
+    background-color: #003399;
+    padding: 30px;
+}
+
+header{
+    background-color: #000;
+    text-align: center;
+}
+
+aside{
+    display: none;
+}
+
+/* Hack para Imgs*/
+img{
+    max-width: 100%;
+}
+
+/* Formatar o Menu */
+a:link, a:visited{
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer p{
+    text-align: center;
+}
+
+/* CSS para telas maiores*/
+@media screen and (min-width:800px){
+    .container{
+        max-width: 900px;
+        grid-template-columns: 303px 1fr;
+        grid-template-areas: 
+            "topo topo"
+            "menu menu"
+            "principal principal"
+            "banner conteudo2"
+            "rodape rodape"
+        ;
+    }
+
+    header{
+        grid-area: topo;
+        position: relative;
+        padding: 10px;
+    }
+
+
+    nav{
+        grid-area: menu;
+        justify-content: flex-end;
+        column-gap: 30px;
+    }
+
+    .pc{
+        position: absolute;
+        top:40px;
+        left: 50px;
+    }
+
+    main{grid-area: principal;}
+
+    aside{
+        grid-area: banner;
+        display: block;
+        background: url(images/web.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    aside img{
+        display: none;
+    }
+
+    section{grid-area: conteudo2;}
+
+    footer{grid-area: rodape;}
+}
