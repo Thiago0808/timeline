@@ -156,6 +156,16 @@ const cardsData = [
     link: "/projects/artes/journey.html",
   },
   {
+    date: "5 DE ABRIL DE 2023",
+    title: "ARTE, CORES & DECISÕES",
+    name: "Cores",
+    technologies: ["HTML", "CSS"],
+    description:
+      "Nesta mesma colaboração, houve uma tarefa de criarmos a nossa obra de arte digital. Eu escolhi fazer um jogo de decisões, com temática das escolhas de vida de um artista. Utilizando animações CSS, background e um roteiro o qual curti muito, este é certamente o meu projeto HTML/CSS favorito.",
+    image: "cores.png",
+    link: "/projects/artes/cores/index.html",
+  },
+  {
     date: "3 DE MAIO DE 2023",
     title: "APLICANDO O QUE APRENDEMOS",
     name: "Blue Web",
