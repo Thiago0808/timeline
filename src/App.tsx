@@ -146,6 +146,16 @@ const cardsData = [
     link: "/projects/semanticos/index.html",
   },
   {
+    date: "5 DE ABRIL DE 2023",
+    title: "OBRAS DE ARTE",
+    name: "Journey",
+    technologies: ["HTML", "CSS"],
+    description:
+      "Em colaboração com a matéria de artes, tinhamos que escolher alguma obra de arte digital e fazermos um site sobre. Eu escolhi Journey, um Art Game que é até hoje uma das experiências mais únicas que eu tive com videogames.",
+    image: "journey.png",
+    link: "/projects/artes/journey.html",
+  },
+  {
     date: "3 DE MAIO DE 2023",
     title: "APLICANDO O QUE APRENDEMOS",
     name: "Blue Web",
