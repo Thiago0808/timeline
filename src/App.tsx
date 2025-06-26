@@ -185,6 +185,16 @@ const cardsData = [
     image: "form.png",
     link: "/projects/form/index.html",
   },
+  {
+    date: "11 DE MAIO DE 2023",
+    title: "APRENDENDO USOS DO PHP",
+    name: "Comentários",
+    technologies: ["HTML", "CSS", "PHP"],
+    description:
+      "Trabalhando com backend agora, fizemos algo que na época eu via como magia, que era pegar um comentário do site e inserir em um arquivo separado, assim como também apresentar o conteúdo deste arquivo no site.",
+    image: "comentarios.png",
+    link: "/projects/comentarios/index.php",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);

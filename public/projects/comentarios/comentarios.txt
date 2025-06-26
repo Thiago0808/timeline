@@ -1,0 +1,8 @@
+<div class="comentario"><small>17/05/2023 19:17 - Nota: 5</small><hr>OI</div>
+
+<div class="comentario"><small>17/05/2023 14:25 - Nota: 5</small><hr>Magnífico</div>
+
+
+
+<div class="comentario"><small>26/06/2025 12:59 - Nota: 5</small><hr>Excelente Site!!!</div>
+
