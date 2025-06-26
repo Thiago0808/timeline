@@ -175,6 +175,16 @@ const cardsData = [
     image: "blueweb.png",
     link: "/projects/blueweb/index.html",
   },
+  {
+    date: "4 DE MAIO DE 2023",
+    title: "COMEÇANDO PHP",
+    name: "Formulários",
+    technologies: ["HTML", "CSS", "PHP"],
+    description:
+      "Em meu primeito contato com PHP, nosso foco foi criar formulários e trabalhar com os dados vindos deles, apresentado esses dados ao usuário, ou até utilizando para uma pesquisa Google. Montei um mini site que direciona para os sites PHP que fiz no primeiro dia.",
+    image: "form.png",
+    link: "/projects/form/index.html",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PetShop Fofuxos</h1>
+        <h2>Formulário</h2>
+        <img src="jack.png" alt="Jack">
+        <form action="" method="post">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div>
+                    <label for="n">Nome:</label>
+                    <input type="text" name="nome" id="n" placeholder="Digite seu nome" required>
+                </div>
+                <div>
+                    <label for="rg">CPF:</label>
+                    <input type="number" name="cpf" id="cpf" placeholder="CPF">
+                </div>
+                <div>
+                    <label for="nasc">Data de Nascimento:</label>
+                    <input type="date" name="nasc" id="nasc">
+                </div>
+                <div>
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" name="endereco" id="endereco" placeholder="Cidade X, Bairro Y, Rua Z" required>
+                </div>
+                <div>
+                    <label for="cor">Qual é sua cor favorita?</label>
+                    <input type="color" name="cor" id="cor" >
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados do Pet</legend>
+                <div>
+                    <label for="n">Nome:</label>
+                    <input type="text" name="nome" id="n" placeholder="Digite seu nome" required>
+                </div>
+                <div>
+                    <label for="animal">Que animal seu Pet é?</label>
+                    <select name="animal" id="animal">
+                        <option >Cachorro</option>
+                        <option >Gato</option>
+                        <option >Hamster</option>
+                        <option >Coelho</option>
+                        <option >Pássaro</option>
+                        <option >Outro</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="raca">Raça:</label>
+                    <input type="text" name="raca" id="raca" placeholder="Digite a raça de seu Pet:" required>
+                </div>
+                <div>
+                    <label for="nasc">Data de Nascimento de seu Pet:</label>
+                    <input type="date" name="nasc" id="nasc">
+                </div>
+                <div>
+                    <input type="radio" name="genero" id="macho" value="macho">
+                    <label for="macho">Macho</label>
+                    <input type="radio" name="genero" id="femea" value="femea">
+                    <label for="femea">Fêmea</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Serviço</legend>
+                <div>
+                    <p>Que serviço você deseja?</p>
+                    <input type="checkbox" name="banho" id="banho">
+                    <label for="banho">Banho</label>
+                    <br>
+                    <input type="checkbox" name="tosa" id="tosa">
+                    <label for="tosa">Tosa</label>
+                    <br>
+                    <input type="checkbox" name="passeio" id="passeio">
+                    <label for="passeio">Passeio</label>
+                    <br>
+                    <input type="checkbox" name="unhas" id="unhas">
+                    <label for="unhas">Unhas</label>
+                    <br>
+                    <input type="checkbox" name="vacinacao" id="vacinacao">
+                    <label for="vacinacao">Vacinação</label>
+                </div>
+                <div>
+                    <label for="foto" class="vacina">Caso tenha selecionado vacinação, envie uma foto da carteira de vacinação do seu Pet:</label>
+                    <input type="file" name="foto" id="foto">
+                </div>
+            </fieldset>
+
+            <div>
+                <input type="submit" value="Finalizar">
+                <!-- <input type="reset" value="Apagar Tudo"> -->
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

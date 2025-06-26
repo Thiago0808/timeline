@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário</h1>
+        <form action="recebe.php" method="post">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div>
+                    <label for="n">Nome:</label>
+                    <input type="text" name="nome" id="n" placeholder="Digite seu nome" required>
+                </div>
+                <div>
+                    <label for="rg">RG:</label>
+                    <input type="number" name="rg" id="rg" min="0" step="0.1" placeholder="RG">
+                </div>
+                <div>
+                    <label for="nasc">Data de Nascimento:</label>
+                    <input type="date" name="nasc" id="nasc">
+                </div>
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                </div>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <!-- Checkbox - Seleção Múltipla -->
+                <div>
+                    <p>Quais linguagens você domina?</p>
+                    <input type="checkbox" name="html" id="html">
+                    <label for="html">HTML</label>
+                    <br>
+                    <input type="checkbox" name="css" id="css">
+                    <label for="css">CSS</label>
+                    <br>
+                    <input type="checkbox" name="php" id="php">
+                    <label for="php">PHP</label>
+                    <br>
+                    <input type="checkbox" name="js" id="js" disabled>
+                    <label for="js">Javascript</label>
+                    <br>
+                    <input type="checkbox" name="webalgo" id="webalgo" checked>
+                    <label for="webalgo">WebAlgo</label>
+                </div>
+                <!-- Seleção Única - Radio -->
+                <div>
+                    <p>Escolha um Curso</p>
+                    <input type="radio" name="curso" id="info" value="info" checked>
+                    <label for="info">Informática</label>
+                    <br>
+                    <input type="radio" name="curso" id="adm" value="adm">
+                    <label for="adm">Administração</label>
+                </div>
+                <!-- Seleção Única -  Lista -->
+                <div>
+                    <label for="turma">Turma:</label>
+                    <select name="turma" id="turma">
+                        <option value="2019">Turma 2019</option>
+                        <option value="2020">Turma 2020</option>
+                        <option value="2021" selected>Turma 2021</option>
+                        <option value="2022">Turma 2022</option>
+                        <option value="2023">Turma 2023</option>
+
+                    </select>
+                </div>
+                <!-- Textos -->
+                <div>
+                    <label for="comentario">Faça seu comentário</label>
+                    <br>
+                    <textarea placeholder="Digite algo" name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                </div>
+                <!-- Botões -->
+                <div>
+                    <input type="submit" value="Enviar para o Server">
+                    <!-- <input type="reset" value="Apagar Tudo"> -->
+                </div>
+            </fieldset>
+            
+
+            <!-- 
+                Atributos Úteis:
+                Required
+                Checked
+                Selected
+                Disabled
+                Value
+                Placeholder
+
+             -->
+
+        </form>
+    </div>
+    
+</body>
+</html>
