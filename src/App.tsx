@@ -205,6 +205,16 @@ const cardsData = [
     image: "paginacao.png",
     link: "/projects/paginacao/index.php",
   },
+  {
+    date: "28 DE JUNHO DE 2023",
+    title: "UM CLÁSSICO",
+    name: "Calculadora PHP",
+    technologies: ["HTML", "CSS", "PHP"],
+    description:
+      "Assim como qualquer programador, também tenho meu projeto de calculadora. Além do básico, também aprendi aqui sobre try/catch, tratamento de erros e switch.",
+    image: "calculadora.png",
+    link: "/projects/calculadora/index.php",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);
