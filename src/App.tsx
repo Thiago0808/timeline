@@ -195,6 +195,16 @@ const cardsData = [
     image: "comentarios.png",
     link: "/projects/comentarios/index.php",
   },
+  {
+    date: "17 DE MAIO DE 2023",
+    title: "PAGINAÇÃO EM PHP",
+    name: "Blog com Paginação",
+    technologies: ["HTML", "CSS", "PHP"],
+    description:
+      "Neste mini blog, meu maior aprendizado foi a paginação em PHP, um recurso exxtremamente útil o qual eu viria a utilizar em muitos projetos futuros, como o CodeSnape.",
+    image: "paginacao.png",
+    link: "/projects/paginacao/index.php",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);

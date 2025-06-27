@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #301440;
+    background-image: url(pages/img/passarinho.png);
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+header, footer{
+    padding: 50px;
+    background-color: #4C2066;
+    text-align: center;
+}
+
+header h1{
+    text-shadow: 2px 2px 3px #983FCC;
+    font-weight: bolder;
+    font-size: 300%;
+    color: white;
+}
+
+nav{
+    background-color: #692B8C;
+    border-top: 1px solid #2b2d42;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:link, nav a:visited{
+    color: #EDF2F4;
+    padding: 20px;
+    text-align: none;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #301440;
+}
+
+main{
+    padding: 30px;
+    line-height: 140%;
+    background-color: #983FCC;
+}
+
+img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.ori{
+    text-align: center;
+}
+
