@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <div>
+                <label for="n1">Número 1: </label>
+                <input type="number" name="n1" id="n1" required>
+            </div>
+            <div>
+                <label for="n2">Número 2: </label>
+                <input type="number" name="n2" id="n2" required>
+            </div>
+            <div class="operacoes">
+                <div>
+                    <button onclick="somar()">Somar</button>
+                </div>
+                <div>
+                    <button onclick="subtrair()">Subtrair</button>
+                </div>
+                <div>
+                    <button onclick="multiplicar()">Multiplicar</button>
+                </div>
+                <div>
+                    <button onclick="dividir()">Dividir</button>
+                </div>
+            </div>
+
+            <h1 id="resultado"></h1>
+    </div>
+
+    <script>
+        function somar(){
+            const result = document.getElementById("resultado");
+            const n1 = document.getElementById("n1")
+            const n2 = document.getElementById("n2")
+            let r = parseInt(n1.value) + parseInt(n2.value);
+            result.innerHTML = r;
+
+        }
+
+        function subtrair(){
+            const result = document.getElementById("resultado");
+            const n1 = document.getElementById("n1")
+            const n2 = document.getElementById("n2")
+            let r = parseInt(n1.value) - parseInt(n2.value);
+            result.innerHTML = r;
+
+        }
+
+        function multiplicar(){
+            const result = document.getElementById("resultado");
+            const n1 = document.getElementById("n1")
+            const n2 = document.getElementById("n2")
+            let r = parseInt(n1.value) * parseInt(n2.value);
+            result.innerHTML = r;
+
+        }
+
+        function dividir(){
+            const result = document.getElementById("resultado");
+            const n1 = document.getElementById("n1")
+            const n2 = document.getElementById("n2")
+            if (n2.value ==0){
+                result.innerHTML ="Não pode dividir por Zero";
+            }
+            else{
+                let r = parseInt(n1.value) / parseInt(n2.value);
+                result.innerHTML = r;
+            }
+
+            result.innerHTML = n2.value==0?"Divisão por Zero": n1.value/n2.value;
+
+        }
+        //Desafio de Código: Amplie a funcionalidade para as 4 operações
+        //Indique quando houver divisão pro zero.
+    </script>
+    
+    
+</body>
+</html>

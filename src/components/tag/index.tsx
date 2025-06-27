@@ -5,7 +5,7 @@ interface TagProps {
 }
 
 function Tag({ name }: TagProps) {
-  const className = `tag ${name.toLowerCase()}`; // ex: "tag html"
+  const className = `tag ${name.toLowerCase()}`;
   return <span className={className}>{name}</span>;
 }
 

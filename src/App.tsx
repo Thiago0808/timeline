@@ -215,6 +215,16 @@ const cardsData = [
     image: "calculadora.png",
     link: "/projects/calculadora/index.php",
   },
+  {
+    date: "10 DE AGOSTO DE 2023",
+    title: "Funções em JS",
+    name: "Par ou Ímpar",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    description:
+      "Neste projeto aprendi certas bases do JavaScrip, tais como funções do tipo onClick, obter elementos para utilizar em funções JS, mmodificação de InnerHTML, e funções comuns, como Math.random.",
+    image: "par_impar.png",
+    link: "/projects/par_impar/par_ou_impar.html",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);

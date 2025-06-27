@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <div class="operacoes">
+                <div>
+                    <button onclick="sorteio(1)">Par</button>
+                </div>
+                <div>
+                    <button onclick="sorteio(2)">Ímpar</button>
+                </div>
+            </div>
+
+            <h1 id="resultado"></h1>
+            <h1 id="numero"></h1>
+            <h1 id="placar"></h1>
+    </div>
+
+    <script>
+        //O usuário escolhe par ou ímpar
+        //Faça o sorteio de um número
+        //Se o número sorteado for o que você escoleu, você ganhou.
+        //Senão, o PC ganhou
+        // Fazer um placar USER VS PC
+
+        u = 0;
+        p = 0;
+        function sorteio(x){
+            c = Math.ceil(Math.random()*100);
+
+            const h = document.getElementById("numero");
+            h.innerHTML = `Número: ${c}`;
+
+            n = c%2;
+            const r = document.getElementById("resultado");
+            if (n==0){
+                if (x==1){
+                    r.innerHTML = ("Você ganhou!");
+                    u++;
+                }
+                else{
+                    r.innerHTML = ("Você perdeu!");
+                    p++;
+                }
+            }
+            else{
+                if (x==2){
+                    r.innerHTML = ("Você ganhou!");
+                    u++;
+                }
+                else{
+                    r.innerHTML = ("Você perdeu!");
+                    p++;
+                }
+            }
+            const pl = document.getElementById("placar");
+            pl.innerHTML = ("VOCÊ "+u+"x"+p+" PC")
+
+        }
+    </script>
+    
+    
+</body>
+</html>
