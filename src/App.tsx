@@ -221,9 +221,19 @@ const cardsData = [
     name: "Par ou Ímpar",
     technologies: ["HTML", "CSS", "JavaScript"],
     description:
-      "Neste projeto aprendi certas bases do JavaScrip, tais como funções do tipo onClick, obter elementos para utilizar em funções JS, mmodificação de InnerHTML, e funções comuns, como Math.random.",
+      "Neste projeto aprendi certas bases do JavaScrip, tais como funções do tipo onClick, obter elementos para utilizar em funções JS, modificação de InnerHTML, e funções comuns, como Math.random.",
     image: "par_impar.png",
     link: "/projects/par_impar/par_ou_impar.html",
+  },
+  {
+    date: "16 DE AGOSTO DE 2023",
+    title: "ARQUIVOS .JS & NOVAS POSSIBILIDADES",
+    name: "Jokenpo",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    description:
+      "Aprendendo a utilizar arquivos .js, também fui ensinado a mexer com imagens e cores, assim como trabalhar com possibilidades mais complexas.",
+    image: "jokenpo.png",
+    link: "/projects/jokenpo/jokenpo.html",
   },
 ];
 
