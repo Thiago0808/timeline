@@ -156,7 +156,7 @@ const cardsData = [
     link: "/projects/artes/journey.html",
   },
   {
-    date: "5 DE ABRIL DE 2023",
+    date: "12 DE ABRIL DE 2023",
     title: "ARTE, CORES & DECISÕES",
     name: "Cores",
     technologies: ["HTML", "CSS"],
@@ -164,6 +164,16 @@ const cardsData = [
       "Nesta mesma colaboração, houve uma tarefa de criarmos a nossa obra de arte digital. Eu escolhi fazer um jogo de decisões, com temática das escolhas de vida de um artista. Utilizando animações CSS, background e um roteiro o qual curti muito, este é certamente o meu projeto HTML/CSS favorito.",
     image: "cores.png",
     link: "/projects/artes/cores/index.html",
+  },
+  {
+    date: "18 DE ABRIL DE 2023",
+    title: "O PRIMEIRO FRAMEWORK",
+    name: "Boostrap",
+    technologies: ["HTML", "CSS", "Bootstrap"],
+    description:
+      "Com um outro professor, nos foi apresentado o Bootstrap de ínicio apenas testando alguns componentes, entendendo do que se trata um framework. Acompanhando a campanha do Manchester City na época, este foi o meu tema para os testes.",
+    image: "bootstrap.png",
+    link: "/projects/bootstrap/index.html",
   },
   {
     date: "3 DE MAIO DE 2023",
