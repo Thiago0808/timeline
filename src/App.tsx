@@ -216,6 +216,16 @@ const cardsData = [
     link: "/projects/paginacao/index.php",
   },
   {
+    date: "30 DE MAIO DE 2023",
+    title: "TESTANDO OS LIMITES DO BOOTSTRAP & CSS",
+    name: "Futebola",
+    technologies: ["HTML", "CSS", "Bootstrap"],
+    description:
+      "Em um projeto mais ambicioso com design da minha namorada e tematizado de algo que adoro, nasceu o Futebola, em que busquei me testar para ver o que eu era capaz de alcançar com o que eu tinha aprendido.",
+    image: "futebola.png",
+    link: "/projects/futebola/index.html",
+  },
+  {
     date: "28 DE JUNHO DE 2023",
     title: "UM CLÁSSICO",
     name: "Calculadora PHP",
