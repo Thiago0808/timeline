@@ -255,6 +255,16 @@ const cardsData = [
     image: "jokenpo.png",
     link: "/projects/jokenpo/jokenpo.html",
   },
+  {
+    date: "25 DE OUTUBRO DE 2023",
+    title: "LOGIN & CONTAS",
+    name: "Sessões",
+    technologies: ["HTML", "CSS", "PHP", "MySQL"],
+    description:
+      "Neste importantíssimo projeto, aprendi o básico para criação de contas. Além do cadastro, fiz também um login, o qual mantém a sessão do usuário, páginas que são bloqueadas caso o usuário não esteja logado, e claro, um logout também.",
+    image: "sessao.png",
+    link: "/projects/sessao/index.php",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);
