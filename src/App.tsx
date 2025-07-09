@@ -285,6 +285,16 @@ const cardsData = [
     image: "sessao.png",
     link: "/projects/sessao/index.php",
   },
+  {
+    date: "8 DE NOVEMBRO DE 2023",
+    title: "ORIENTADA A OBJETOS",
+    name: "PHP & POO",
+    technologies: ["HTML", "CSS", "PHP", "MySQL"],
+    description:
+      "Após um semestre focado em Programação Orientada a Objetos em Python, finalmente aplicamos o que aprendemos na programação web, criando um site de interface extremamente simples, com o objetivo de testar POO em PHP.",
+    image: "poo.png",
+    link: "/projects/poo/index.php",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);
