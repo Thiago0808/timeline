@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #301440;
+    background-image: url(img/fundo.jpg);
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+header{
+    padding: 50px;
+    background-color: #4C2066;
+    text-align: center;
+}
+
+footer{
+    padding: 10px;
+    background-color: #4C2066;
+    text-align: center;
+    color: white;
+}
+
+
+header h1{
+    text-shadow: 2px 2px 3px #983FCC;
+    font-weight: bolder;
+    font-size: 300%;
+    color: white;
+    border-bottom: 0;
+}
+
+header p{
+    color: white;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+nav{
+    background-color: #692B8C;
+    border-top: 1px solid #2b2d42;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:link, nav a:visited{
+    color: #EDF2F4;
+    padding: 20px;
+    text-align: none;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #301440;
+}
+
+main{
+    padding: 30px;
+    line-height: 140%;
+    background-color: #983FCC;
+}
+
+img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.cat{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 50px;
+    font-size: 120%;
+}
+
+.bem{
+    font-size: 120%;
+}
+
+hr{
+    border-color: black;
+}
+
+form {
+    border: 1px solid black;
+}
+
+form div {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=date],
+textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    resize: none;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+fieldset {
+    border: 2px solid rgb(33, 33, 107);
+    border-radius: 5px;
+}
+
+legend {
+    padding: 5px 30px;
+    background-color: rgb(33, 33, 107);
+    color: #CCC;
+    border: 2px solid rgb(33, 33, 107);
+    border-radius: 5px;
+}
+/*Formatar Seção Imovel */
+div.imovel, div.categoria, .cat, li, form div{
+    padding: 20px;
+    background-color: #b14fe9;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.proximo{
+    background-color: #983FCC;
+    border: 0;
+    padding-left: 0;
+}
+
+.categoria a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+a.apagar:link, a.apagar:visited{
+    color: white;
+    float: right;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.paginacao{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.paginacao a{
+    color:#301440;
+    font-size: 140%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+form{
+    padding: 20px;
+    border: 0;
+}
+
+/* Deixar Filtro Bonito ********************/
+/* Estado e Município */
+.em{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.select_em{
+    font-size: 16px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.botao_em{
+    font-size: 20px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+h6{
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Filtro */
+.filtro label{
+    font-size: 18px;
+}
+
+input[type=text]{
+    max-width: 50%;
+}
+
+input[type=number], input[type=date]{
+    max-width: 20%;
+}
+
+.filtro select{
+    font-size: 16px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.filtro div{
+    margin-bottom: 10px;
+}
+
+h2{
+    border-bottom: 2px solid black;
+    border-bottom-style:dashed;
+}
+
+.sem_borda{
+    border: 0;
+}
+
+.ver:link, .ver:visited{
+    text-decoration: none;
+    color:#4C2066;
+}
+
+input[type=search]{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+li{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.celular{
+    display: none;
+}
+
+nav a:first-child{
+    display: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 900px){
+    nav a{
+        display: none;
+    }
+
+    nav{
+        display: block
+    }
+
+    nav a:first-child{
+        display: block;
+    }
+
+    nav:hover a{
+        display: block;
+    }
+
+    nav a:hover{
+        display: block;
+    }
+
+    li{
+        margin-right: 5%;
+    }
+    
+    main{
+        line-height: normal;
+    }
+
+    .select_em{
+        font-size: 15px;
+    }
+
+    input[type=text]{
+        max-width: 100%;
+    }
+    
+    input[type=number], input[type=date]{
+        max-width: 100%;
+    }
+    
+    .sanduiche{
+        font-size: 30px;
+    }
+
+    input[type=search]{
+        width: 100%;
+    }
+
+    form{
+        padding-top: 0;
+    }
+    
+
+
+    
+}

@@ -207,13 +207,23 @@ const cardsData = [
   },
   {
     date: "17 DE MAIO DE 2023",
-    title: "PAGINAÇÃO EM PHP",
+    title: "PÁGINAS EM PHP",
     name: "Blog com Paginação",
     technologies: ["HTML", "CSS", "PHP"],
     description:
-      "Neste mini blog, meu maior aprendizado foi a paginação em PHP, um recurso exxtremamente útil o qual eu viria a utilizar em muitos projetos futuros, como o CodeSnape.",
+      "Neste mini blog, meu maior aprendizado foram páginas em PHP, um recurso extremamente útil o qual eu viria a utilizar em muitos projetos futuros, como o CodeSnape.",
     image: "paginacao.png",
     link: "/projects/paginacao/index.php",
+  },
+  {
+    date: "17 DE MAIO DE 2023",
+    title: "INTEGRANDO BANCOS DE DADOS",
+    name: "Imobiliária IFSC",
+    technologies: ["HTML", "CSS", "PHP", "MySQL"],
+    description:
+      "Após diversas aulas puramente de banco de dados, este foi o primeiro projeto em que juntamos os conhecimentos de BD com os de programação web, trabalhando com um banco de dados de casas fictícias em um site de imobiliária.",
+    image: "imobiliaria.png",
+    link: "/projects/imobiliaria/index.php",
   },
   {
     date: "30 DE MAIO DE 2023",
