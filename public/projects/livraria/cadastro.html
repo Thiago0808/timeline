@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="shortcut icon" href="cadastro_conteudo/logo.png" type="image/x-icon">
+    <title>Cadastro Liceria</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="row cima">
+
+          <!-- Parte Superior -->
+          <div class="col-sm div_logo">
+            <img class="logo_pc" src="cadastro_conteudo/logo.png" alt="Logo da Liceria">
+            <img class="logo_celular" src="cadastro_conteudo/logo_celular.png" alt="Logo da Liceria">
+          </div>
+          <div class="col-sm div_titulo">
+            <h1 class="titulo_pc">O que você é?</h1>
+          </div>
+          <div class="col-sm div_titulo"></div>
+          <h1 class="titulo_celular">O que você é?</h1>
+        </div>
+
+        <!-- Parte do Meio -->
+        <div class="row">
+          <div class="col-sm div_funcionario">
+            <button type="button" class="div_cliente" data-toggle="modal" data-target="#exampleModal">
+              <img class="cliente_celular" src="cadastro_conteudo/cliente_celular.png" alt="botão para cadastro do cliente">
+              <img class="cliente_pc" src="cadastro_conteudo/cliente.png" alt="botão para cadastro do cliente">
+            </button>
+          </div>
+          <div class="col-sm">
+            <button type="button" class="func" data-toggle="modal" data-target="#exampleModal2">
+              <img class="funcionario_celular" src="cadastro_conteudo/funcionario_celular.png" alt="botão para cadastro do funcionario">
+              <img class="funcionario_pc" src="cadastro_conteudo/funcionario.png" alt="botão para cadastro do funcionario">
+            </button>
+          </div>
+        </div>
+
+        <!-- Parte Inferior -->
+        <div class="inferior">
+          <img class="redes_celular" src="cadastro_conteudo/redes_celular.png" alt="Redes sociais">
+          <img class="redes_pc" src="cadastro_conteudo/redessociais.png" alt="Redes sociais">
+          <p>© 2023 - Design e Desenvolvimento por Aline e Thiago </p>
+        </div>
+      </div>
+
+  <!-- Modal  1-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cadastro</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <!-- Conteúdo do Modal 1 -->
+          <form action="actions/salvar_cliente.php" method="post">
+            <div>
+              <label for="nome">Nome: </label>
+              <input type="text" placeholder="Digite seu nome" name="nome" required>
+            </div>
+            <div>
+              <label for="sobrenome">Sobrenome: </label>
+              <input type="text" placeholder="Digite seu sobrenome" name="sobrenome" required>
+            </div>
+            <div>
+              <label for="senha">Senha: </label>
+              <input type="password" placeholder="Digite sua senha" name="senha" required>
+            </div>
+            <div>
+                <label for="telefone">Telefone: </label>
+                <input type="text" placeholder="Digite seu Telefone" name="telefone" required>
+            </div>
+            <div>
+                <label for="endereco">Endereço: </label>
+                <input type="text" placeholder="Digite seu endereço" name="endereco" required>
+            </div>
+            <div>
+                <label for="rg">RG: </label>
+                <input type="number" min="0" placeholder="Apenas números" name="rg" required>
+            </div>
+            <div>
+                <label for="nascimento">Data de Nascimento: </label>
+                <input type="date" name="nascimento">
+            </div>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sair</button>
+            <input type="submit" value="Salvar">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2-->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cadastro</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <!-- Conteúdo do Modal 2 -->
+          <form action="actions/salvar_funcionario.php" method="post">
+            <div>
+              <label for="nome">Nome: </label>
+              <input type="text" placeholder="Digite seu nome" name="nome" required>
+            </div>
+            <div>
+              <label for="sobrenome">Sobrenome: </label>
+              <input type="text" placeholder="Digite seu sobrenome" name="sobrenome" required>
+            </div>
+            <div>
+              <label for="senha">Senha: </label>
+              <input type="password" placeholder="Digite sua senha" name="senha" required>
+            </div>
+            <div>
+                <label for="telefone">Telefone: </label>
+                <input type="text" placeholder="Digite seu Telefone" name="telefone" required>
+            </div>
+            <div>
+                <label for="endereco">Endereço: </label>
+                <input type="text" placeholder="Digite seu endereço" name="endereco" required>
+            </div>
+            <div>
+                <label for="rg">RG: </label>
+                <input type="number" min="0" placeholder="Apenas números" name="rg" required>
+            </div>
+            <div>
+                <label for="nascimento">Data de Nascimento: </label>
+                <input type="date" name="nascimento">
+            </div>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sair</button>
+            <input type="submit" value="Salvar">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Bootstap -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

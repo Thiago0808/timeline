@@ -226,6 +226,16 @@ const cardsData = [
     link: "/projects/futebola/index.html",
   },
   {
+    date: "13 DE jJUNHO DE 2023",
+    title: "SITES MAIS COMPLETOS",
+    name: "Liceria",
+    technologies: ["HTML", "CSS", "PHP", "MySQL", "Bootstrap"],
+    description:
+      "Aplicando diversos aprendizados, fiz um site com diversos componentes e propriedades do Bootstrap, visando várias páginas, possibilidades, assim como divisão de site entre funcionário/cliente, e inserções no banco de dados.",
+    image: "liceria.png",
+    link: "/projects/livraria/cadastro.html",
+  },
+  {
     date: "28 DE JUNHO DE 2023",
     title: "UM CLÁSSICO",
     name: "Calculadora PHP",
@@ -237,7 +247,7 @@ const cardsData = [
   },
   {
     date: "10 DE AGOSTO DE 2023",
-    title: "Funções em JS",
+    title: "FUNÇÕES EM JS",
     name: "Par ou Ímpar",
     technologies: ["HTML", "CSS", "JavaScript"],
     description:

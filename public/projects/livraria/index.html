@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Noto Serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- EB Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Loja Liceria</title>
+  </head>
+  <body>
+    <div class="container">
+
+        <!-- Navegador -->
+            <ul class="nav justify-content-end">
+                <li class="logo pc">
+                  <img src="img/logo.png" alt="Logo Liceria">
+                </li>
+                <li class="logo celular">
+                  <img src="img/logo_celular.png" alt="Logo Liceria">
+                </li>
+                <li class="nav-item celular b">
+                  <a href="comprar.html"><button class="butao">Comprar</button></a>
+                </li>
+                <li class="nav-item celular">
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                      &#9776;
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#inicio">Inicio</a>
+                      <a class="dropdown-item" href="comprar.html">Comprar</a>
+                      <a class="dropdown-item" href="#promocao">Promoção</a>
+                      <a class="dropdown-item" href="#sobre">Sobre</a>
+                      <a class="dropdown-item" href="#contato">Contato</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item pc">
+                  <a class="nav-link" href="#inicio">Início</a>
+                </li>
+                <li class="nav-item pc">
+                  <a class="nav-link" href="comprar.html">Comprar</a>
+                </li>
+                <li class="nav-item pc">
+                  <a class="nav-link" href="#promocao">Promoção</a>
+                </li>
+                <li class="nav-item pc">
+                  <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item last-child pc">
+                  <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+
+        <!-- Header / Introdução -->
+
+        <header id="inicio">
+            <div class="introducao">
+                <h1 class="h1_1">Loja</h1>
+                <h1>Liceria</h1>
+                <p>Bem vindo à nossa Livraria Virtual, onde você pode encontrar tudo que deseja, além de descobrir novas histórias que irão te encantar!</p>
+                <p class="margin_celular">Dos clássicos aos modernos, dos nacionais aos estrangeiros, da comédia à tragédia, temos tudo para todos os gostos.</p>
+                <a href="comprar.html" class="pc"><button>Comprar</button></a>
+            </div>
+            <img src="img/intro.png" alt="3 Livros">
+        </header>
+
+        <!-- Promoção -->
+        <div id="promocao">
+            <!-- Carrosel -->
+            <h6>Clique para ver Promoções!</h6>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                  <div class="carrosseis">
+
+                    <div class="livro first">
+                      <div class="branco">
+                        <a href="livro.html" class="pc"><img src="img/promocao/promocao_Iracema.png" alt=""></a>
+                        <a href="livro.html" class="celular" ><img src="img/promocao/promocao_Iracema_celular.png" alt=""></a>
+                        <div class="preco">
+                          <p class="riscado">R$20,00</p>
+                          <p class="dinheiro">R$5,00</p>
+                        </div>
+                      </div>
+                      <p>Iracema</p>
+                      <img src="img/4estrelas.png" class="pc" alt="4 estrelas">
+                    </div>
+          
+                    <div class="livro">
+                      <div class="branco">
+                        <a href="livro.html" class="pc"><img src="img/promocao/promocao_Senhora.png" alt=""></a>
+                        <a href="livro.html" class="celular" ><img src="img/promocao/promocao_Senhora_celular.png" alt=""></a>
+                        <div class="preco">
+                          <p class="riscado">R$60,00</p>
+                          <p class="dinheiro">R$40,00</p>
+                        </div>
+                      </div>
+                      <p>Senhora</p>
+                      <img src="img/4estrelas.png" class="pc" alt="4 estrelas">
+                    </div>
+          
+                    <div class="livro last">
+                      <div class="branco">
+                        <a href="livro.html" class="pc"><img src="img/promocao/promocao_Banana4.png" alt=""></a>
+                        <a href="livro.html" class="celular" ><img src="img/promocao/promocao_Banana4_celular.png" alt=""></a>
+                        <div class="preco">
+                          <p class="riscado">R$30,00</p>
+                          <p class="dinheiro">R$25,00</p>
+                        </div>
+                      </div>
+                      <p>Diário de um Banana 4</p>
+                      <img src="img/5estrelas.png" class="pc" alt="5 estrelas">
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="carousel-item">
+                  <div class="carrosseis">
+
+                    <div class="livro first">
+                      <div class="branco">
+                        <a href="livro.html" class="pc"><img src="img/promocao/promocao_Fallen.png" alt=""></a>
+                        <a href="livro.html" class="celular" ><img src="img/promocao/promocao_Fallen_celular.png" alt=""></a>
+                        <div class="preco">
+                          <p class="riscado">R$20,00</p>
+                          <p class="dinheiro">R$10,00</p>
+                        </div>
+                      </div>
+                      <p>Fallen</p>
+                      <img src="img/4estrelas.png"  class="pc" alt="">
+                    </div>
+          
+                    <div class="livro">
+                      <div class="branco">
+                        <a href="livro.html" class="pc"><img src="img/promocao/promocao_Guarani.png" alt=""></a>
+                        <a href="livro.html" class="celular" ><img src="img/promocao/promocao_Guarani_celular.png" alt=""></a>
+                        <div class="preco">
+                          <p class="riscado">R$30,00</p>
+                          <p class="dinheiro">R$20,00</p>
+                        </div>
+                      </div>
+                      <p>O Guarani</p>
+                      <img src="img/4estrelas.png" class="pc" alt="">
+                    </div>
+          
+                    <div class="livro last">
+                      <div class="branco">
+                        <a href="livro.html" class="pc"><img src="img/promocao/promocao_Futebol.png" alt=""></a>
+                        <a href="livro.html" class="celular" ><img src="img/promocao/promocao_Futebol_celular.png" alt=""></a>
+                        <div class="preco">
+                          <p class="riscado">R$55,00</p>
+                          <p class="dinheiro">R$25,00</p>
+                        </div>
+                      </div>
+                      <p>Invertendo a Pirâmide</p>
+                      <img src="img/5estrelas.png" class="pc" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </button>
+            </div>
+
+
+            <!--  -->
+            <h3>Promoção toda Semana!</h3>
+            <p class="pro">Aproveite incríveis promoções toda semana na Liceria, com descontos perfeitos para sua carteira.
+              Com essas ofertas, você poderá expandir sua biblioteca e seu conhecimento por um preço especial.
+              </p>
+        </div>
+
+        <!-- Sobre -->
+        <div id="sobre">
+            <div class="q pc">
+              <img src="img/quem.png"alt="Foto de Nosso Grupo">
+            </div>
+            <div class="quem">
+                <h4>Quem</h4>
+                <h4>Somos?</h4>
+                <div class="q celular">
+                  <img src="img/quem_celular.png" alt="Foto de Nosso Grupo">
+                </div>
+                <p>Com o objetivo de levar a leitura para quem estava distante dela, a Liceria foi criada.</p>
+                <p class="p2">Fundada em 27 de junho de 2020, estamos a quase 3 anos aproximando as pessoas dos livros de maneira virtual e eficiente.</p>
+            </div>
+        </div>
+
+        <!-- Rodapé/Contato -->
+        <footer id="contato">
+          <div class="esq">
+            <img src="img/sociais.png" class="pc" alt="Redes Sociais">
+            <img src="img/sociais_celular.png" class="celular" alt="Redes Sociais">
+          </div>
+          <div>
+              <p>© 2023 - Design e Desenvolvimento por Aline e Thiago </p>
+          </div>
+        </footer>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

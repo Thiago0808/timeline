@@ -1,0 +1,330 @@
+.container{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+
+nav{
+    background-color: #73462C;
+}
+
+nav a:link{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+}
+
+nav .dropdown-item{
+    color: #212529;
+}
+
+a{
+    font-size: 25px;
+    color: white;
+    font-family: 'Noto Serif', serif;
+    font-weight: 300;
+}
+
+.logo{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 2.708335%;
+}
+
+.pag{
+    padding-left: 46.52778%;
+}
+
+.comprar,.contato{
+    padding-left: 5%;
+}
+
+.livro{
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+    padding-top: 56px;
+}
+
+.div_livro{
+    padding-left: 8.75%;
+    max-width: 33%;
+    padding-bottom: 58px;
+}
+
+.div_texto{
+    padding-left: 5.83333%;
+}
+
+h2{
+    padding-top: 33.62px;
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+h1{
+    padding-top: 108px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 300;
+    font-size: 60px;
+    max-width: 70%;
+}
+
+button{
+    border-radius: 10px;
+}
+
+.botao{
+    margin-top: 33.62px;
+    margin-right: 13.194445%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 25px;
+    background-color: #261008;
+    border-color: #261008;
+    color: white;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 3.9419087136929463%;
+    padding-right: 3.9419087136929463%;
+    border-radius: 10px;
+    font-family: 'EB Garamond';
+}
+
+.botao:hover{
+    color: white;
+}
+
+.botao:focus{
+    box-shadow: 0px 0px 0px 0px #261008;
+}
+
+h3{
+    font-family: 'EB Garamond';
+    padding-top: 175.62px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 90%;
+}
+
+.inferior{
+    background-color: #A6754B;
+    text-align: center;
+}
+
+h4{
+    font-family: 'EB Garamond';
+    font-size: 35px;
+    color: #000000;
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Noto Serif';
+    font-weight: 300;
+    color: black;
+}
+
+footer{
+    display: flex;
+    background: #261008;
+    width: 100%;
+    text-align: right;
+}
+
+footer div{
+    flex-basis: 50%;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.esq{
+    text-align: left;
+}
+
+footer img{
+    padding-left: 10.9722%;
+}
+
+footer p{
+    color: white;
+    font-size: 30px;
+    padding-right: 9.16666%;
+}
+
+.inferior p{
+    padding-bottom: 78px;
+}
+
+.sino{
+    display: flex;
+    justify-content: center;
+}
+
+.sinopse{
+    max-width: 73.45%;
+}
+
+.genero{
+    padding-top: 30px;
+}
+
+.botao_genero{
+    background-color: #A66658;
+    border-color: #A66658;
+    color: white;
+    font-size: 14px;
+    font-family: 'Noto Serif';
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+
+.celular{
+    display: none;
+}
+
+.row{
+    margin: 0;
+}
+
+@media screen and (max-width: 900px){
+
+    .pc{
+        display: none;
+    }
+
+    .row{
+        margin: 0;
+    }
+
+    .col-sm{
+        padding: 0;
+    }
+    
+    .celular{
+        display: inline-block;
+    }
+    .n{
+        display: none;
+    }
+    .logo{
+        padding-top: 9px;
+        padding-left: 6.25%;
+        padding-bottom: 9px;
+    }
+    .dropdown-toggle::after{
+        display: none;
+    }
+    a{
+        font-size: 1em;
+    }
+    .livro_celular{
+        padding-top: 39px;
+    }
+    h1{
+        font-size: 36px;
+        padding: 0;
+        margin-top: 39px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    .botao{
+        font-size: 20px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 15%;
+        padding: 0;
+    }
+    footer p{
+        font-size: 8px;
+    }  
+    footer div{
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .inferior p{
+        padding: 0;
+    }
+
+    /* Navegador */
+    .dropdown .btn{
+        font-size: 40px;
+    }
+    
+    .dropdown-menu{
+        left: -100px;
+    }
+
+    .logo{
+        margin-right: 50%;
+    }
+
+    .div_livro{
+        max-width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .div_texto {
+        margin-left: 6.25%;
+        margin-bottom: 28px;
+    }
+
+    h4{
+        font-size: 30px;
+        margin-left: 9%;
+        padding-top: 30px;
+    }
+
+    .inferior{
+        text-align: left;
+    }
+
+    .last{
+        margin-bottom: 54px;
+    }
+
+        /* Rodapé *****************************************************************************************************************************************************/
+        footer{
+            display: flex;
+            align-items: center;
+        }
+    
+        footer p{
+            font-size: 8px;
+            margin: 0;
+        }
+    
+        footer div{
+            flex-basis: 69%;
+            padding-top: 22px;
+            padding-bottom: 22px;
+        }
+        
+        .esq{
+            flex-basis: 31%;
+        }
+    
+        footer p{
+            margin-bottom: 0;
+        }
+
+}
+

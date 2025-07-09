@@ -1,0 +1,175 @@
+.container{
+    max-width: 100%;
+    margin: 0;
+}
+
+.cima{
+    display: flex;
+}
+
+.cima div{
+    flex-basis: 33.3%;
+}
+
+.logo_pc{
+    padding-top: 36px;
+    padding-left: 8.842105263157896%;
+}
+
+
+.div_titulo{
+    text-align: center;
+    margin-top: 7.98611%;
+
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Noto Serif', serif;
+}
+
+.col-sm{
+    padding: 0;
+}
+
+.cliente_pc{
+    transition: transform 0.3s ease;
+}
+
+.div_cliente{
+    padding-right: 5%;
+}
+
+.cliente_pc:hover{
+    transform: scale(1.1);
+}
+
+.funcionario_pc{
+    transition: transform 0.3s ease;
+}
+
+.funcionario_pc:hover{
+    transform: scale(1.1);
+}
+
+.func{
+    padding-left: 10%;
+}
+
+.div_funcionario{
+    text-align: right;
+}
+
+.inferior{
+    font-family: 'Noto Serif', serif;
+    font-weight: lighter;
+    padding-top: 5.277%;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 1.80555%;
+}
+
+p{
+    padding-top: 2.01388%;
+}
+
+button{
+    background-color: white;
+    border: 0;
+}
+
+label{
+    padding-bottom: 2%;
+}
+
+.modal{
+    font-size: 110%;
+    padding-top: 9%;
+}
+
+.btn-primary{
+    background-color: #A6754B;
+    border: #A6754B;
+}
+
+.logo_celular{
+    display: none;
+}
+
+.btn-primary:hover,.btn-primary:visited,.btn-primary:link,.btn-primary{
+    background-color: #A6754B;
+    border: #A6754B;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active{
+    background-color: #A6754B;
+    border: #A6754B;   
+}
+
+.btn:focus, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled):active:focus{
+    box-shadow: none;
+} 
+
+.cliente_celular{
+    display: none;
+}
+
+.funcionario_celular{
+    display: none;
+}
+
+.redes_celular{
+    display: none;
+}
+
+.titulo_celular{
+    display:none;
+}
+
+@media screen and (max-width: 900px){
+    h1{
+        font-size: 40px;
+    }
+    .logo_celular{
+        display: inline-block;
+        padding-top: 23px;
+        padding-left: 13.335%;
+    }
+    .logo_pc{
+        display: none;
+    }
+    .cliente_pc{
+        display: none;
+    }
+    .cliente_celular{
+        display: inline-block;
+        padding-bottom: 50.97px;
+    }
+    .funcionario_pc{
+        display: none;
+    }
+    .funcionario_celular{
+        display: inline-block;
+        padding-bottom: 67.97px;
+    }
+    .redes_celular{
+        display: inline-block;
+    }
+    .redes_pc{
+        display: none;
+    }
+    p{
+        font-size: 10px;
+    }
+    .titulo_pc{
+        display: none;
+    }
+    .titulo_celular{
+        display: inline-block;
+        padding-left: 10%;
+        padding-top: 33px;
+    }
+    .modal{
+        font-size: 13px;
+    }
+}

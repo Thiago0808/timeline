@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Noto Serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- EB Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Comprar Livros</title>
+  </head>
+  <body>
+    <div class="container">
+
+        <!-- Navegador -->
+
+            <ul class="nav justify-content nav_comprar">
+                <li class="img_comprar pc"><img src="img/logo.png" alt=""></li>
+                <li class="img_comprar celular"><img src="img/logo_celular.png" alt=""></li>
+                <li class="nav-item pc">
+                  <a class="nav-link" href="index.html">Página Inicial</a>
+                </li>
+                <li class="nav-item pc">
+                  <a class="nav-link" href="#contato">Contato</a>
+                </li>
+                <li class="nav-item pc">
+                    <div class="dropdown a">
+                        <a class="btn dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                          Categorias
+                          <img src="img/setinha_baixo.png" alt="">
+                        </a>
+                      
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Autobiografia</a>
+                          <a class="dropdown-item" href="#">Aventura</a>
+                          <a class="dropdown-item" href="#">Biografia</a>
+                          <a class="dropdown-item" href="#">Crônica</a>
+                          <a class="dropdown-item" href="#">Drama</a>
+                          <a class="dropdown-item" href="#">Fantasia</a>
+                          <a class="dropdown-item" href="#">Ficção Científica</a>
+                          <a class="dropdown-item" href="#">Horror</a>
+                          <a class="dropdown-item" href="#">Humor</a>
+                          <a class="dropdown-item" href="#">Mistério</a>
+                          <a class="dropdown-item" href="#">Não Ficção</a>
+                          <a class="dropdown-item" href="#">Poesia</a>
+                          <a class="dropdown-item" href="#">Romance</a>
+                        </div>
+                      </div>
+                </li>
+                <form action="?page=pesquisar" method="get" class="form-inline">
+                  <img src="img/lupa.png" alt="">
+                  <input type="search" name="pesquisar">
+                  <input type="hidden" name="page" value="pesquisar">
+                </form>
+              <li class="nav-item celular">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle sand_comprar" type="button" data-toggle="dropdown" aria-expanded="false">
+                    &#9776;
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="index.html">Inicio</a>
+                    <a class="dropdown-item" href="#contato">Contato</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+        <!-- Main -->
+        <main>
+          <h1 class="comprar">Que livro você irá escolher hoje?</h1>
+          <div class="livros">
+            <div class="row">
+              <div class="col">
+                <div class="left">
+                  <a href="../Liceria - comprar livro/index.html"><div class="comprar_livro esqu">
+                    <img src="img/livros/livro_Futebol.png" class="pc" alt="">
+                    <img src="img/livros/livro_Futebol_celular.png" class="celular" alt="">
+                    <p>Invertendo a Pirâmide</p>
+                    <div class="preco_promocao">
+                      <p class="riscado">R$55,00</p>
+                      <p class="dinheiro">R$25,00</p>
+                    </div>
+                  </div></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="meio">
+                  <a href="../Liceria - comprar livro/index.html"><div class="comprar_livro">
+                    <img src="img/livros/livro_Morro.png" class="pc" alt="">
+                    <img src="img/livros/livro_Morro_celular.png" class="celular" alt="">
+                    <p>O Morro dos Ventos Uivantes</p>
+                    <div class="preco_promocao">
+                      <p class="dinheiro">R$80,00</p>
+                    </div>
+                  </div></a>
+                </div>
+              </div>
+              <div class="col">
+                <a href="../Liceria - comprar livro/index.html"><div class="direita">
+                  <div class="comprar_livro dir">
+                    <img src="img/livros/livro_Banana1.png" class="pc" alt="">
+                    <img src="img/livros/livro_Banana1_celular.png" class="celular" alt="">
+                    <p>O Diário de um Banana</p>
+                    <div class="preco_promocao">
+                      <p class="dinheiro">R$30,00</p>
+                    </div>
+                  </div>
+                </div></a>
+
+              </div>
+              <div class="w-100"></div>
+              <div class="col">
+                <div class="left">
+                  <a href="../Liceria - comprar livro/index.html"><div class="comprar_livro esqu">
+                    <img src="img/livros/livro_Banana2.png" class="pc" alt="">
+                    <img src="img/livros/livro_Banana2_celular.png" class="celular" alt="">
+                    <p>O Diário de um Banana 2</p>
+                    <div class="preco_promocao">
+                      <p class="dinheiro">R$30,00</p>
+                    </div>
+                  </div></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="meio">
+                  <a href="../Liceria - comprar livro/index.html"><div class="comprar_livro">
+                    <img src="img/livros/livro_Banana3.png" class="pc" alt="">
+                    <img src="img/livros/livro_Banana3_celular.png" class="celular" alt="">
+                    <p>O Diário de um Banana 3</p>
+                    <div class="preco_promocao">
+                      <p class="dinheiro">R$30,00</p>
+                    </div>
+                  </div></a>
+                </div>
+              </div>
+              <div class="col">
+                <a href="../Liceria - comprar livro/index.html"><div class="direita">
+                  <div class="comprar_livro dir">
+                    <img src="img/livros/livro_Banana4.png" class="pc" alt="">
+                    <img src="img/livros/livro_Banana4_celular.png" class="celular" alt="">
+                    <p>O Diário de um Banana 4</p>
+                    <div class="preco_promocao">
+                      <p class="dinheiro">R$30,00</p>
+                      <p class="dinheiro">R$25,00</p>
+                    </div>
+                  </div>
+                </div></a>
+
+              </div>
+              <div class="w-100"></div>
+              <div class="col">
+                <div class="left">
+                  <a href="../Liceria - comprar livro/index.html"><div class="comprar_livro esqu">
+                    <img src="img/livros/livro_Fallen.png" class="pc" alt="">
+                    <img src="img/livros/livro_Fallen_celular.png" class="celular" alt="">
+                    <p>Fallen</p>
+                    <div class="preco_promocao">
+                      <p class="riscado">R$20,00</p>
+                      <p class="dinheiro">R$10,00</p>
+                    </div>
+                  </div></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="meio">
+                  <a href="../Liceria - comprar livro/index.html"><div class="comprar_livro">
+                    <img src="img/livros/livro_Tormenta.png" class="pc" alt="">
+                    <img src="img/livros/livro_Tormenta_celular.png" class="celular" alt="">
+                    <p>Tormenta</p>
+                    <div class="preco_promocao">
+                      <p class="dinheiro">R$20,00</p>
+                    </div>
+                  </div></a>
+                </div>
+              </div>
+              <div class="col">
+                <a href="../Liceria - comprar livro/index.html"><div class="direita">
+                  <div class="comprar_livro dir">
+                    <img src="img/livros/livro_Paixao.png" class="pc" alt="">
+                    <img src="img/livros/livro_Paixao_celular.png" class="celular" alt="">
+                    <p>Paixão</p>
+                    <div class="preco_promocao">
+                      <p class="dinheiro">R$20,00</p>
+                    </div>
+                  </div>
+                </div></a>
+
+              </div>
+              <div class="w-100"></div>
+              <div class="col">
+                <div class="left">
+                  <a href="../Liceria - comprar livro/index.html"><div class="comprar_livro esqu">
+                    <img src="img/livros/livro_Iracema.png" class="pc" alt="">
+                    <img src="img/livros/livro_Iracema_celular.png" class="celular" alt="">
+                    <p>Iracema</p>
+                    <div class="preco_promocao">
+                      <p class="riscado">R$20,00</p>
+                      <p class="dinheiro">R$5,00</p>
+                    </div>
+                  </div></a>
+                </div>
+              </div>
+              <div class="col pc">
+                <div class="meio">
+                  <a href="../Liceria - comprar livro/index.html"><div class="comprar_livro">
+                    <img src="img/livros/livro_Guarani.png" class="pc" alt="">
+                    <img src="img/livros/livro_Guarani_celular.png" class="celular" alt="">
+                    <p>O Guarani</p>
+                    <div class="preco_promocao">
+                      <p class="riscado">R$30,00</p>
+                      <p class="dinheiro">R$20,00</p>
+                    </div>
+                  </div></a>
+                </div>
+              </div>
+              <div class="col pc">
+                <a href="../Liceria - comprar livro/index.html"><div class="direita">
+                  <div class="comprar_livro dir">
+                    <img src="img/livros/livro_Senhora.png" class="pc" alt="">
+                    <img src="img/livros/livro_Senhora_celular.png" class="celular" alt="">
+                    <p>Senhora</p>
+                    <div class="preco_promocao">
+                      <p class="riscado">R$60,00</p>
+                      <p class="dinheiro">R$40,00</p>
+                    </div>
+                  </div>
+                </div></a>
+
+              </div>
+            </div>
+          </div>
+          <table class="tabela_comprar"><tr>
+            <th>Anterior</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>Próximo</th>
+          </tr></table>
+        </main>
+
+        <!-- Rodapé/Contato -->
+        <footer id="contato">
+          <div class="esq">
+            <img src="img/sociais.png" class="pc" alt="Redes Sociais">
+            <img src="img/sociais_celular.png" class="celular" alt="Redes Sociais">
+          </div>
+          <div>
+              <p>© 2023 - Design e Desenvolvimento por Aline e Thiago </p>
+          </div>
+        </footer>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
