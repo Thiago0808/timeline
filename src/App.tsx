@@ -295,6 +295,16 @@ const cardsData = [
     image: "poo.png",
     link: "/projects/poo/index.php",
   },
+  {
+    date: "1 DE DEZEMBRO DE 2023",
+    title: "TREINANDO OBJETOS",
+    name: "Blog Premium",
+    technologies: ["HTML", "CSS", "PHP", "MySQL"],
+    description:
+      "Continuando o treinamento de POO em programação web, fizemos um pequeno blog, com usuário e seus textos. Também deveríamos personalizar os nossos blogs, então adicionei um paywall para ultrapassar os caracteres, e uma função de pagar uma quantia em cada trecho para ganhar estrelas no texto.",
+    image: "blog.png",
+    link: "/projects/blog/index.php",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);
