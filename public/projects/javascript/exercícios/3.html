@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colocar em Parágrafo</title>
+    <link rel="stylesheet" href="exercicio.css">
+</head>
+<body>
+    <div class="container">
+        <p>Faça um código JS que substitua o conteúdo do parágrafo com o texto que foi escrito no campo a.</p>
+        <input type="text" id="a" placeholder="input a">
+        <br>
+        <p>Parágrafo</p>
+        <button>colocar no parágrafo</button>
+    </div>
+
+    <script>
+        const paragrafos = document.getElementsByTagName("p")
+        const a = document.getElementById("a");
+        const botao = document.querySelector("button");
+
+
+        botao.addEventListener('click', function(){
+            console.log(1);
+            paragrafos[1].innerHTML=(a.value)
+        })
+        
+
+    </script>
+</body>
+</html>

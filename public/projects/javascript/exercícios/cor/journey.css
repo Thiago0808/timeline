@@ -1,0 +1,157 @@
+body{
+    background-color: #F2A444;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container e Confirurações Gerais*/
+.container{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #FFFDDB;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    text-align: justify;
+    font-size: 110%;
+}
+
+/* Navegador */
+nav{
+    background-color: #401201;
+    position: fixed;
+    /* top, left, right, bottom */
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding-left: 10px;
+    padding: 10px;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin-right: 5%;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+#obra, #sobre, #artgame, #exp, #autor, #trailer{
+    padding-top: 60px;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+/* Sobre a Obra */
+
+ .sobre{
+    float: left;
+    padding-right: 25px;
+}
+
+.primeiro{
+    margin-top: 7%;
+}
+
+/* ArtGame */
+ .art{
+    float: right;
+    padding-left: 25px;
+}
+
+/* Experiência */
+.ex{
+    float: left;
+    padding-right: 25px;
+}
+
+/* Autor */
+
+.companhia{
+    float: right;
+    padding-left: 25px;
+}
+
+
+/* Rodapé */
+footer{
+    color: black;
+    max-width: 1000px;
+    margin: auto;
+}
+
+footer p{
+    text-align: center;
+}
+
+/* Configuração para celular */
+@media screen and (max-width:710px){
+    .logo, iframe{
+        max-width: 90%;
+    }
+
+    iframe{
+        max-height: 500px;
+    }
+
+    li{
+        padding: 2%;
+    }
+
+    #obra, #sobre, #artgame, #exp, #autor, #trailer{
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width:500px){
+    
+    .sobre, .art, .ex, .companhia{
+        float: none;
+        padding: 0;
+    }
+
+    .montanha{
+        max-width: 100%;
+    }
+
+    iframe{
+        max-height: 200px;
+    }
+
+    li{
+        padding: 2%;
+    }
+
+    a:link, a:visited{
+        font-size:medium;
+    }
+
+    #obra, #sobre, #artgame, #exp, #autor{
+        padding-top: 80px;
+
+    }
+
+    #trailer{
+        padding-top: 0;
+    }
+}
+
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhador de Número</title>
+    <link rel="stylesheet" href="exercicios/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <p>Faça um jogo onde o usuário possui 10 chances de adivinhar um número entre 1 e 100</p>
+        <p>A cada chance, se errar, o jogo dede informar se o número secreto é maior ou menor</p> -->
+        <input type="number" id="n" placeholder="Digite um número" min="1" max="100" step="1">
+        <button >Verificar</button>
+        <p>Adivinhe o número que está entre 1 e 100</p>
+        <p>Número de Tentativas: 10</p>
+        <h1></h1>
+    </div>
+
+    <script>
+        let c = 10
+        const n = document.getElementById("n");
+        s = Math.ceil(Math.random()*100)
+
+        const botao = document.querySelector("button");
+        const chances = document.querySelector("p");
+        const h1 = document.querySelector("h1");
+
+
+        botao.addEventListener('click', function(){
+            console.log(n.value)
+            console.log(s)
+            if (n.value==s){
+                h1.innerHTML=("Ganhou")
+                s = Math.ceil(Math.random()*100)
+                c=10
+                chances.innerHTML=("Número de Tentativas: "+c)
+            }
+            else if (s<n.value){
+                h1.innerHTML=("O número é menor")
+                c--;
+                chances.innerHTML=("Número de Tentativas: "+c)
+
+            }
+            else if (s>n.value){
+                h1.innerHTML=("O número é maior")
+                c --;
+                chances.innerHTML=("Número de Tentativas: "+c)
+            }
+            if (c==0){
+                window.close()
+            }
+        })
+
+    </script>
+    
+</body>
+</html>

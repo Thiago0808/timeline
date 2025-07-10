@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repetidor de Strings</title>
+</head>
+<body>
+    <h1>1</h1>
+    <h1>2</h1>
+    <h1>3</h1>
+    <script>
+        let n = 5;
+        const titulos = document.getElementsByTagName("h1")
+        //document.getElementsByTagName("h1")[1].innerHTML="mudar";
+        for (let i=0; i<titulos.length; i++){
+            titulos[i].innerHTML= `Mudou para ${i+1}!`;
+            //Template Strings ou Template Literals
+        }
+    </script>
+</body>
+</html>

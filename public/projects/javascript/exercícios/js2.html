@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JavaScript</title>
+</head>
+<body>
+    <script>
+        /*
+        Desafio de Código: Solicite dois números e mostre a soma
+        Dica: pesquise por parseInt caso o resultado não ser esperado
+        */
+        let a = parseFloat(prompt("Primeiro Número"));
+        let b = parseFloat(prompt("Segundo Número"));
+
+        /*
+        Desafio 2: Solicite também qual operação (4 operações básicas)
+        Verifique se os números sãp válidos
+        Dica: Pesquise por isInt ou isFloat
+        */
+        let op = parseInt(prompt("Digite 1 para Soma | 2 para Subtração | 3 para Multiplicação | 4 para Divisão"));
+        console.log("op: "+op);
+        let r = 0;
+        if (op==1){
+            r = a+b;
+            console.log("soma: "+ r);
+
+        }
+        else if (op==2){
+            r = a-b;
+        }
+        else if (op==3){
+            r = a*b;
+        }
+        else if (op==4){
+            if (b==0){
+                r = "Não pode dividir por Zero";
+            }
+            else{
+                r = a/b;
+            }
+        }
+        document.write(r)
+
+    </script>
+    
+</body>
+</html>

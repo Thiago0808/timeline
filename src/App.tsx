@@ -256,12 +256,22 @@ const cardsData = [
     link: "/projects/calculadora/index.php",
   },
   {
+    date: "AGOSTO DE 2023",
+    title: "JAVASCRIPT",
+    name: "Exercícios de JavaScript",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    description:
+      "Iniciando minhas aventuras com JS, realizei diversos exercícios para entender sua lógica, funções e possibilidades. Aqui reuni todos eles para demonstrar mais adequadamnente o que foi feito em cada um.",
+    image: "javascript.png",
+    link: "/projects/javascript/index.html",
+  },
+  {
     date: "10 DE AGOSTO DE 2023",
     title: "FUNÇÕES EM JS",
     name: "Par ou Ímpar",
     technologies: ["HTML", "CSS", "JavaScript"],
     description:
-      "Neste projeto aprendi certas bases do JavaScrip, tais como funções do tipo onClick, obter elementos para utilizar em funções JS, modificação de InnerHTML, e funções comuns, como Math.random.",
+      "Neste projeto aprendi certas bases do JavaScript, tais como funções do tipo onClick, obter elementos para utilizar em funções JS, modificação de InnerHTML, e funções comuns, como Math.random.",
     image: "par_impar.png",
     link: "/projects/par_impar/par_ou_impar.html",
   },

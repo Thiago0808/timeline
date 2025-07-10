@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar em Parágrafo</title>
+    <link rel="stylesheet" href="exercicio.css">
+</head>
+<body>
+    <div class="container">
+        <p>Faça um código JS que adicione (sem substituir) o conteúdo no parágrafo com o texto que foi escrito no campo a.</p>
+        <input type="text" id="a" placeholder="input a">
+        <br>
+        <p>Parágrafo</p>
+        <button id="botao">adicionar no parágrafo</button>
+    </div>
+
+    <script>
+        const paragrafo = document.getElementsByTagName("p")[1];
+        const a = document.getElementById("a");
+        const botao = document.getElementById("botao");
+
+
+        botao.addEventListener('click', function(){
+            console.log(1);
+            paragrafo.innerHTML=(paragrafo.innerHTML +" " +a.value)
+        })
+        
+        //Thiago+= Aline é a mesma coisa que Thiago = Thiago+Aline
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somas</title>
+    <link rel="stylesheet" href="exercicio.css">
+</head>
+<body>
+    <div class="container">
+        <p>Faça um código JS que soma a+b e adicione no campo soma. Dica: pesquisa por js casting.</p>
+        <input type="text" id="a" placeholder="input a">
+        <br>
+        <input type="text" id="b" placeholder="input b">
+        <br>
+        <input type="text" id="soma" placeholder="soma">
+        <button id="somar">somar</button>
+    </div>
+
+    <script>
+        const somar = document.getElementById("somar");
+        const a = document.getElementById("a");
+        const b = document.getElementById("b");
+        const soma = document.getElementById("soma");
+
+        somar.addEventListener('click', function(){
+            console.log(1);
+            soma.value = (parseFloat(a.value)+parseFloat(b.value))
+        })
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trocador de Input</title>
+    <link rel="stylesheet" href="exercicio.css">
+</head>
+<body>
+    <div class="container">
+        <p>Faça um código JS que coloque no campo b o que foi escrito no campo a.</p>
+        <input type="text" id="a" placeholder="input a" name = "a">
+        <br>
+        <input type="text" id="b" placeholder="input b" name = "b">
+        <button >trocar</button>
+    </div>
+
+    <script>
+        const trocar = document.querySelector("button");
+        const a = document.getElementById("a");
+        const b = document.getElementById("b");
+
+        trocar.addEventListener('click', function(){
+            console.log(1);
+            let aa = a.value;
+            let bb = b.value;
+            a.value = bb;
+            b.value = aa;
+        })
+        
+
+    </script>
+</body>
+</html>

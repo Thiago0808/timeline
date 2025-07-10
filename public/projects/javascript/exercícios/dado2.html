@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados JS</title>
+</head>
+<body>
+    <h1>Desafio Dado</h1>
+    <h2 id="titulo">X</h2>
+
+    <script>
+        /*
+        Desafio de Código
+        Crie um script (dado2.html)que sorteia 2 dados 100 vezes e mostre quantas vezes eles cairam com a mesma face
+        */
+
+        function dado(n){
+            let sorteio = Math.random()*n;
+            return Math.ceil(sorteio)
+        }
+
+        let n=0
+        for (let i=0; i<100; i++){
+            let x = dado(6)
+            let y = dado(6)
+            if (x==y){
+                n++;
+            }
+        }
+        const t = document.getElementById("titulo")
+        t.innerHTML = n;
+
+
+    </script>
+    
+</body>
+</html>
