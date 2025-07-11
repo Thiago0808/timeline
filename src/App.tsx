@@ -286,6 +286,16 @@ const cardsData = [
     link: "/projects/jokenpo/jokenpo.html",
   },
   {
+    date: "30 DE AGOSTO DE 2023",
+    title: "TRABALHO EM EQUIPE",
+    name: "ChaThi",
+    technologies: ["HTML", "CSS", "PHP", "MySQL", "Bootstrap"],
+    description:
+      "Neste trabalho em equipe, nos foi ensinado sobre GitHub, algo o qual eu conhecia antes, mas que pode conhecer ainda mais, programando junto com meus colegas.",
+    image: "chathi.png",
+    link: "/projects/chathi/interface/index.php",
+  },
+  {
     date: "25 DE OUTUBRO DE 2023",
     title: "LOGIN & CONTAS",
     name: "Sessões",

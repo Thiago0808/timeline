@@ -1,0 +1,190 @@
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    line-height: 15px;
+    max-width: 100%;
+    padding: 11%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+label{
+    margin-left: 20%;
+    padding-right: 10px;
+    margin-bottom: .1em;
+}
+
+
+.colcor{
+    margin: 2%;
+    margin-left: 20%;
+    padding-right: 5px;
+    display: block;
+
+}
+
+
+.p-2{
+    margin-top: 3%;
+}
+
+
+.colnom{
+    margin: 2%;
+    margin-left: 20%;
+    padding-right: 10px;
+}
+
+
+.button{
+    margin-left: 15%;
+    margin-top: 34%;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+
+
+.dropdown{
+    margin-left: 18%;
+    margin-top: 5%;
+}
+
+
+.avatar{
+    margin-top: 24%;
+    margin-left: 123%;
+    border-radius: 100%;
+    border: 7px solid #007BFF;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    width: 70px;
+    height: 70px;
+}
+
+.temas{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.temas label{
+    margin-left: 0;
+    margin-bottom: 0.7em;
+}
+
+
+#colunas{
+    display: flex;
+    max-width: 1500px;
+    flex-wrap: wrap;
+}
+
+
+img{
+    margin-left: 12%;
+}
+
+
+.cores{
+    padding-top: 5%;
+}
+
+
+.lado{
+    margin-left: 20%;
+}
+
+
+.nome{
+    padding-top: 5%;
+}
+
+.modal-title{
+    font-size: 2rem;
+    padding: 2%;
+}
+
+.modal-body img{
+    margin: 2%;
+    border-radius: 10px;
+}
+
+.botao:link,
+.botao:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.botao:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.botao:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.botao-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.botao::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.botao-white::after {
+    background-color: #fff;
+}
+
+.botao:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.botao-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+.d-flex{
+    flex-wrap: wrap !important;
+}
+
+@media screen and (max-width: 900px){
+    *{
+        margin-left: 0 !important;
+    }
+    
+}
+
+
+
+
+
+
