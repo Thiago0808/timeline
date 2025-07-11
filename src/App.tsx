@@ -21,7 +21,7 @@ const cardsData = [
     name: "GNU/Linux",
     technologies: ["HTML"],
     description:
-      "Depois, foi feito site sobre GNU/Linux, o sistema operacional utilizado nos computadores do IFSC, nos quais foram feitos a maior parte dos projetos desta timelinte. O objetivo com esse site era principalmente entender melhor a separação de parágrafos, e elementos de forma geral. O strong também foi foco.",
+      "Depois, foi feito site sobre GNU/Linux, o sistema operacional utilizado nos computadores do IFSC, nos quais foram feitos a maior parte dos projetos desta timeline. O objetivo com esse site era, principalmente, entender melhor a separação de parágrafos, e elementos de forma geral. O strong também foi o foco.",
     image: "linux.png",
     link: "/projects/first/linux.html",
   },
@@ -31,7 +31,7 @@ const cardsData = [
     name: "Navegadores",
     technologies: ["HTML", "CSS"],
     description:
-      "Este foi meu primeiro contato com diversos fatores importantes para a programação. Foi meu primeiro uso de imagens, entendendo o elemento <img>; meu primeiro contato com links e redirecionamento; e principalmente, meu primeiro contato com CSS, mexendo basicamente com cores, fontes e um pouco de alinhamento",
+      "Este foi meu primeiro contato com diversos fatores importantes para a programação. Foi meu primeiro uso de imagens, entendendo o elemento <img>; meu primeiro contato com links e redirecionamento; e principalmente, meu primeiro contato com CSS, mexendo basicamente com cores, fontes e um pouco de alinhamento.",
     image: "navegadores.png",
     link: "/projects/navegadores/index.html",
   },
@@ -61,7 +61,7 @@ const cardsData = [
     name: "Tabelas",
     technologies: ["HTML", "CSS"],
     description:
-      "O objetivo deste era claro: Entender e aplicar o conceito de tabelas, utilizando <tr> e <th>, além de eu aprimorar meu entendimento de formatação de código. Também foi aqui que conheci o hover do CSS",
+      "O objetivo deste era claro: Entender e aplicar o conceito de tabelas, utilizando <tr> e <th>, além de eu aprimorar meu entendimento de formatação de código. Também foi aqui que conheci o hover do CSS.",
     image: "tabelas.png",
     link: "/projects/tabelas/tabelas.html",
   },
@@ -136,16 +136,6 @@ const cardsData = [
     link: "/projects/flex/index.html",
   },
   {
-    date: "20 DE ABRIL DE 2023",
-    title: "COMPRENDENDO ELEMENTOS",
-    name: "Elementos Semânticos",
-    technologies: ["HTML", "CSS"],
-    description:
-      "Para fazer um código mais claro e fácil de se entender, aprendi sobre elementos semânticos, tais como header, main, footer, facilitando a interpreação do código.",
-    image: "semanticos.png",
-    link: "/projects/semanticos/index.html",
-  },
-  {
     date: "5 DE ABRIL DE 2023",
     title: "OBRAS DE ARTE",
     name: "Journey",
@@ -161,7 +151,7 @@ const cardsData = [
     name: "Cores",
     technologies: ["HTML", "CSS"],
     description:
-      "Nesta mesma colaboração, houve uma tarefa de criarmos a nossa obra de arte digital. Eu escolhi fazer um jogo de decisões, com temática das escolhas de vida de um artista. Utilizando animações CSS, background e um roteiro o qual curti muito, este é certamente o meu projeto HTML/CSS favorito.",
+      "Nesta mesma colaboração acima, houve uma tarefa de criarmos a nossa obra de arte digital. Eu escolhi fazer um jogo de decisões, com temática das escolhas de vida de um artista. Utilizando animações CSS, background e um roteiro o qual curti muito, este é certamente o meu projeto HTML/CSS favorito.",
     image: "cores.png",
     link: "/projects/artes/cores/index.html",
   },
@@ -174,6 +164,16 @@ const cardsData = [
       "Com um outro professor, nos foi apresentado o Bootstrap de ínicio apenas testando alguns componentes, entendendo do que se trata um framework. Acompanhando a campanha do Manchester City na época, este foi o meu tema para os testes.",
     image: "bootstrap.png",
     link: "/projects/bootstrap/index.html",
+  },
+  {
+    date: "20 DE ABRIL DE 2023",
+    title: "COMPRENDENDO ELEMENTOS",
+    name: "Elementos Semânticos",
+    technologies: ["HTML", "CSS"],
+    description:
+      "Para fazer um código mais claro e fácil de se entender, aprendi sobre elementos semânticos, tais como header, main, footer, facilitando a interpreação do código.",
+    image: "semanticos.png",
+    link: "/projects/semanticos/index.html",
   },
   {
     date: "3 DE MAIO DE 2023",
@@ -236,7 +236,7 @@ const cardsData = [
     link: "/projects/futebola/index.html",
   },
   {
-    date: "13 DE jJUNHO DE 2023",
+    date: "13 DE JUNHO DE 2023",
     title: "SITES MAIS COMPLETOS",
     name: "Liceria",
     technologies: ["HTML", "CSS", "PHP", "MySQL", "Bootstrap"],
