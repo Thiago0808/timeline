@@ -315,6 +315,16 @@ const cardsData = [
     image: "blog.png",
     link: "/projects/blog/index.php",
   },
+  {
+    date: "28 DE SETEMBRO DE 2024",
+    title: "CONHECENDO REACT",
+    name: "Primeiro React",
+    technologies: ["HTML", "CSS", "React", "TypeScript"],
+    description:
+      "Em busca de aumentar meu leque de conhecimento, comecei um curso de react, visando entender principalmente a lógica de componentes, o qual treinei neste projeto.",
+    image: "react.png",
+    link: "/projects/react/index.html",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);
