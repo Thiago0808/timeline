@@ -325,6 +325,16 @@ const cardsData = [
     image: "react.png",
     link: "/projects/react/index.html",
   },
+  {
+    date: "24 DE NOVEMBRO DE 2024",
+    title: "APRIMORANDO REACT",
+    name: "Gasolina X Álcool",
+    technologies: ["HTML", "CSS", "React", "TypeScript"],
+    description:
+      "Aprimorando meus conhecimentos de react, fiz o classico projeto de comparar custo-benefício entre gasolina e álcool.",
+    image: "gasolina.png",
+    link: "/projects/gasolina/index.html",
+  },
 ];
 
   const cardsRefs = useRef<(HTMLDivElement | null)[]>([]);
