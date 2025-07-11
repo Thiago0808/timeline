@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Espanhol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Olá</h1>
+            <h2 id="saco">Boa Noite</h2>
+        </div>
+        <div>
+            <h1>Boa Noite</h1>
+        </div>
+        <p>Por favor, traduz para espanhol</p>
+        <button id="botao">Traduzir</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <script>
+      var botao = document.getElementById("botao")
+      var h2 = document.querySelector('h2#saco');
+      var h2=h2.innerHTML;
+
+      botao.addEventListener('click', function(){
+        var sourceLang = 'pt-br';
+        var targetLang = 'es';
+        console.log(h2);
+        
+        var url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl="+ sourceLang + "&tl=" + targetLang + "&dt=t&q=" + encodeURI(h2);
+        console.log(url)
+
+        $.getJSON(url, function(data) {
+            $('h2#saco').val(data[0][0][0]);
+        });
+
+      })
+      
+
+      
+      </script>
+        
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Espanhol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+          <h2>Digite o texto a ser traduzido para Espanhol</h2>
+          <input type="text" name="" id="input">
+      </div>
+      <textarea id="aux" style="display: none;"></textarea>
+      <br>
+      <input id="button" type="button" value="Traduzir" />
+      <h3>Tradução: </h3>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <script>
+          var aux = document.querySelector('#aux')
+          $('#button').click(function(){translate();});
+
+          function translate(){            
+            var sourceText = document.querySelector('input').value.toLowerCase();
+            var sourceLang = 'pt-br';
+            var targetLang = 'es';
+            
+            var url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl="+ sourceLang + "&tl=" + targetLang + "&dt=t&q=" + encodeURI(sourceText);
+            console.log(url);
+            
+            $.getJSON(url, function(data) {
+                $('#aux').val(data[0][0][0]);
+                document.querySelector('h3').innerHTML = "Tradução: "+ aux.value.charAt(0).toUpperCase() +aux.value.slice(1)  
+
+              });
+
+          }
+
+      
+      </script>
+        
+    
+</body>
+</html>

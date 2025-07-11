@@ -306,6 +306,16 @@ const cardsData = [
     link: "/projects/poo/index.php",
   },
   {
+    date: "23 DE NOVEMBRO DE 2023",
+    title: "TRADUÇÕES",
+    name: "Espanhol",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    description:
+      "Durante as aulas de espanhol, uma de nossas avaliações foi adicionar um tradutor em nosso Projeto Integrador. Para testes, eu criei este pequeno site para testar como traduzir elementos do site para o espanhol.",
+    image: "espanhol.png",
+    link: "/projects/espanhol/teste.html",
+  },
+  {
     date: "1 DE DEZEMBRO DE 2023",
     title: "TREINANDO OBJETOS",
     name: "Blog Premium",
