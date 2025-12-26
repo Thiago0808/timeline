@@ -15,11 +15,11 @@ Para ver a Timeline, é necessário executar os seguintes comandos após clonar 
 - npm i
 - npm run dev
 
-Para ver os projetos com tag MySQL, é necessário adicionar o timeline.sql da pasta docs em seu computador, para conectar com o banco de dados, necessário para utilização do site:
+Para ver os projetos com tag MySQL, é necessário adicionar o docs/timeline.sql da pasta docs em seu computador, para conectar com o banco de dados, necessário para utilização do site:
 
 1ª Forma: Copie o código dentro do arquivo timeline.sql, e em seu terminal, inicie seu banco de dados com o comando "mysql -u root -p", e então cole o código;
 
-2ª Forma: Baixe o arquivo codesnape.sql, e o importe em alguma ferramenta de banco de dados, como o phpMyAdmin;
+2ª Forma: Baixe o arquivo timeline.sql, e o importe em alguma ferramenta de banco de dados, como o phpMyAdmin;
 
 <div align="center">
 <video style="width: 80%;" src="https://github.com/user-attachments/assets/cdd8f8ef-8bd0-4e17-9aa5-b3665eb895d1"/>

@@ -38,6 +38,31 @@
   color: #5a37a6;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.language-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.language-toggle img {
+  width: 36px;
+  height: 24px;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.language-toggle:hover img {
+  transform: scale(1.1);
+}
+
+
 
 @media (max-width: 600px) {
   .header {
